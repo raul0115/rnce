@@ -36,6 +36,9 @@ use Yii;
  */
 class Bienes extends \common\components\BaseActiveRecord
 {
+    
+    public $sys_clasificacion_bien_id;
+
     /**
      * @inheritdoc
      */
@@ -54,6 +57,8 @@ class Bienes extends \common\components\BaseActiveRecord
             [['sys_tipo_bien_id', 'principio_contable', 'contratista_id'], 'integer'],
             [['depreciable', 'deterioro', 'propio'], 'boolean'],
             [['fecha_origen'], 'safe'],
+            [['sys_clasificacion_bien_id'], 'safe'],
+            
             [['detalle', 'origen'], 'string', 'max' => 255]
         ];
     }
@@ -74,6 +79,8 @@ class Bienes extends \common\components\BaseActiveRecord
             'fecha_origen' => Yii::t('app', 'Fecha Origen'),
             'contratista_id' => Yii::t('app', 'Contratista'),
             'propio' => Yii::t('app', 'Propio'),
+            'sys_clasificacion_bien_id' => Yii::t('app', 'Clasificación del Bien'),
+
         ];
     }
 

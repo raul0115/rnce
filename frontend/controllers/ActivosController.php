@@ -6,6 +6,29 @@ use common\models\Bienes;
 
 class ActivosController extends \common\components\BaseController
 {
+
+    public function actionListasTiposBien($id)
+    {
+        $countTiposBien = \common\models\SysTiposBienes::find()
+                ->where(['sys_clasificacion_bien_id' => $id])
+                ->count();
+ 
+        $tiposBien = \common\models\SysTiposBienes::find()
+                ->where(['sys_clasificacion_bien_id' => $id])
+                ->orderBy('id DESC')
+                ->all();
+ 
+        if($countTiposBien>0){
+            foreach($tiposBien as $tipo){
+                echo "<option value='".$tipo->id."'>".$tipo->nombre."</option>";
+            }
+        }
+        else{
+            echo "<option>-</option>";
+        }
+ 
+    }
+
     public function actionAsociarFactura()
     {
         return $this->render('asociar-factura');
@@ -28,8 +51,9 @@ class ActivosController extends \common\components\BaseController
 
     public function actionIndex()
     {
-        $modelBienes = new Bienes();
-        return $this->render('index',['modelBienes'=>$modelBienes]);
+        $model = new Bienes();
+
+        return $this->render('index',['model'=>$model]);
     }
 
     public function actionModelosDeam()

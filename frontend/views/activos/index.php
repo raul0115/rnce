@@ -10,5 +10,5 @@
 
 
     <?= $this->render('_form', [
-        'modelBienes' => $modelBienes,
+        'model' => $model,
     ]) ?>

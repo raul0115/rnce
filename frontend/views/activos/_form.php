@@ -7,6 +7,7 @@ use kartik\datetime\DateTimePicker;
 use yii\helpers\ArrayHelper;
 use common\models\SysFormasOrg;
 use common\models\SysTiposBienes;
+use common\models\SysClasificacionesBien;
 use kartik\form\ActiveForm;
 
 /* @var $this yii\web\View */
@@ -17,11 +18,23 @@ use kartik\form\ActiveForm;
 <div class="activos-form">
 
     <?php $form = ActiveForm::begin(); 
-            $principioContable = ArrayHelper::map(SysFormasOrg::find()->all(), 'id', 'nombre');
-            //$tipoBien = ArrayHelper::map(SysTiposBienes::find()->all(), 'id', 'nombre');
+            $clasificacionBien = ArrayHelper::map(SysClasificacionesBien::find()->all(), 'id', 'nombre');
+            $tipoBien = array();
+            if(!empty($model->sys_clasificacion_bien_id))
+              $tipoBien = ArrayHelper::map(SysTiposBienes::find()->where(['sys_clasificacion_bien_id'=>$model->sys_clasificacion_bien_id])->all(), 'id', 'nombre');
         ?>
 
-
+    <?= $form->field($model, 'sys_clasificacion_bien_id')->dropDownList(
+            $clasificacionBien,
+            ['prompt'=>'Seleccione la clasificacion del bien',
+              'onchange'=>'
+                $.post( "'.Yii::$app->urlManager->createUrl('activos/listasTiposBien?id=').'"+$(this).val(), function( data ) {
+                  $( "select#sys_tipo_bien_id" ).html( data );
+                });
+            '
+            ]
+        );
+    ?>
 
     <?= $form->field($model, 'sys_tipo_bien_id')->dropDownList(
             $tipoBien,
@@ -29,43 +42,6 @@ use kartik\form\ActiveForm;
         );
     ?>
 
-    <?= $form->field($model, 'principio_contable')->dropDownList(
-            $principioContable,
-            ['prompt'=>'Seleccione el principio contable']
-        );
-    ?>
-
- 
-    <?php /*$form->field($model, 'deterioro')->checkbox()*/ ?>
- 
-     <?php /*echo $form->field($model, 'fecha_origen')->widget(\yii\jui\DatePicker::classname(), [
-        'language' => 'es',
-        'dateFormat' => 'dd-MM-yyyy',
-    ]) */?> 
-     
-
-    
-
-    <?= $form->field($model, 'origen')->textArea(['maxlength' => 255]) ?>
-
-    <?= $form->field($model, 'fecha_origen')->widget(DateTimePicker::classname(), [
-/*        'language' => 'es',
-        'dateFormat' => 'dd-MM-yyyy',*/
-                'options' => ['placeholder' => 'Seleccionar fecha origen'],
-                'convertFormat' => true,
-                'pluginOptions' => [
-                    'format' => 'd-M-yyyy',
-                    'startDate' => date('d-m-Y'),//'01-Mar-2014 12:00 AM',
-                    'todayHighlight' => true
-                ]
-    ]) ?>
-
-
-    <?= $form->field($model, 'detalle')->textArea(['maxlength' => 255]) ?>
-
-    <?php //$form->field($model, 'contratista_id')->textInput() ?>
-
-    <?= $form->field($model, 'propio')->checkbox() ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? Yii::t('app', 'Create') : Yii::t('app', 'Update'), ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
