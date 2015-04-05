@@ -22,14 +22,15 @@ use kartik\form\ActiveForm;
             $tipoBien = array();
             if(!empty($model->sys_clasificacion_bien_id))
               $tipoBien = ArrayHelper::map(SysTiposBienes::find()->where(['sys_clasificacion_bien_id'=>$model->sys_clasificacion_bien_id])->all(), 'id', 'nombre');
+
         ?>
 
     <?= $form->field($model, 'sys_clasificacion_bien_id')->dropDownList(
             $clasificacionBien,
             ['prompt'=>'Seleccione la clasificacion del bien',
               'onchange'=>'
-                $.post( "'.Yii::$app->urlManager->createUrl('activos/listasTiposBien?id=').'"+$(this).val(), function( data ) {
-                  $( "select#sys_tipo_bien_id" ).html( data );
+                $.post( "'.Yii::$app->urlManager->createUrl(['/activos/listas-tipos-bien','id'=>'']).'"+$(this).val(), function( data ) {
+                  $( "select#bienes-sys_tipo_bien_id" ).html( data );
                 });
             '
             ]
