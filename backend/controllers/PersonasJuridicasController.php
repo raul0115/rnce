@@ -5,14 +5,15 @@ namespace backend\controllers;
 use Yii;
 use common\models\PersonasJuridicas;
 use app\models\PersonasJuridicasSearch;
-use yii\web\Controller;
+use common\components\BaseController;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use common\models\SysNaturalesJuridicas;
 
 /**
  * PersonasJuridicasController implements the CRUD actions for PersonasJuridicas model.
  */
-class PersonasJuridicasController extends Controller
+class PersonasJuridicasController extends BaseController
 {
     public function behaviors()
     {
@@ -61,8 +62,13 @@ class PersonasJuridicasController extends Controller
     public function actionCreate()
     {
         $model = new PersonasJuridicas();
-
+        $model->creado_por = 1;  //dato cableado
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            $naturalesJuridicas = new SysNaturalesJuridicas();
+            $naturalesJuridicas->rif = $model->rif;
+            $naturalesJuridicas->juridica = true;
+            $naturalesJuridicas->denominacion = $model->razon_social;
+            $naturalesJuridicas->save();
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [

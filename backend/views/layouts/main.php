@@ -25,7 +25,7 @@ AppAsset::register($this);
     <div class="wrap">
         <?php
             NavBar::begin([
-                'brandLabel' => 'My Company',
+                'brandLabel' => 'Registro Nacional de Contratistas',
                 'brandUrl' => Yii::$app->homeUrl,
                 'options' => [
                     'class' => 'navbar-inverse navbar-fixed-top',
@@ -33,6 +33,15 @@ AppAsset::register($this);
             ]);
             $menuItems = [
                 ['label' => 'Home', 'url' => ['/site/index']],
+                ['label' => 'Persona natural', 'url' => ['/personas-naturales/create']],
+                ['label' => 'Persona juridica', 'url' => ['/personas-juridicas/create']],
+                 ['label' => 'Bienes',
+                    'items' => [
+                         ['label' => 'Clasificaciones bienes', 'url' => ['/sys-clasificaciones-bien/create']],
+                         ['label' => 'Tipos bienes', 'url' => ['/sys-tipos-bienes/create']],
+                         ['label' => 'Aqui van los otros', 'url' => ['#']],
+                    ],
+                ],
             ];
             if (Yii::$app->user->isGuest) {
                 $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];

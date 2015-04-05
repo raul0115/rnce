@@ -19,8 +19,11 @@ class PersonasNaturalesSearch extends PersonasNaturales
     {
         return [
             [['id', 'ci', 'creado_por'], 'integer'],
-            [['nombre', 'apellido', 'rif', 'sys_fecha'], 'safe'],
+            [['nombre', 'apellido', 'sys_fecha'], 'safe'],
             [['sys_status'], 'boolean'],
+            [['rif', 'match', 'pattern' => '/^(j|J|v|V|e|E|G|g)([0-9]{8,8})([0-9]{1})$/', 'message' => 'Formato invalido'],],
+            [['ci', 'match', 'pattern' => '/^[0-9]+$/', 'message' => 'Your username can only contain alphanumeric characters, underscores and dashes.'],]
+
         ];
     }
 
