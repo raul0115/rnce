@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\SysInpcSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Sys Inpcs';
+$this->title = 'INPC';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="sys-inpc-index">
@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Sys Inpc', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Crear INPC', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([

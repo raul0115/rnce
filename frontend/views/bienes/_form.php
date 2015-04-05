@@ -1,8 +1,9 @@
 <?php
 
 use yii\helpers\Html;
-use yii\widgets\ActiveForm;
+//use yii\widgets\ActiveForm;
 //use yii\jui\DatePicker;
+use kartik\form\ActiveForm;
 use kartik\datetime\DateTimePicker;
 use yii\helpers\ArrayHelper;
 use common\models\SysFormasOrg;
@@ -15,7 +16,11 @@ use common\models\SysTiposBienes;
 
 <div class="bienes-form">
 
-    <?php $form = ActiveForm::begin(); 
+    <?php $form = ActiveForm::begin([
+       // 'id' => 'login-form-inline', 
+        'type' => ActiveForm::TYPE_HORIZONTAL,
+        'formConfig' => ['labelSpan' => 3, 'deviceSize' => ActiveForm::SIZE_SMALL]
+    ]); 
         $principioContable = ArrayHelper::map(SysFormasOrg::find()->all(), 'id', 'nombre');
         $tipoBien = ArrayHelper::map(SysTiposBienes::find()->all(), 'id', 'nombre');
     ?>
