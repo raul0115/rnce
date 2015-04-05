@@ -11617,3 +11617,314 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1428266707.846
     'REQUEST_TIME' => 1428266707
 ]
+2015-04-05 16:40:41 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: activos/#' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('#', Array)
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('activos/#', Array)
+#2 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-05 16:40:41 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'activos/#'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => 'e42f609b9321ce9abe73accfda97a761c4fab43acb3752ac4ae6fb27a5384ab6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WmsDmZoQzh58c-i_0gNyxjCXyG934kju\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'newotu'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php?r=activos%2Findex'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=e42f609b9321ce9abe73accfda97a761c4fab43acb3752ac4ae6fb27a5384ab6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WmsDmZoQzh58c-i_0gNyxjCXyG934kju%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '56800'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=activos%2F%23'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=activos%2F%23'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428268241.835
+    'REQUEST_TIME' => 1428268241
+]
+2015-04-05 16:51:48 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '=', expecting ']'' in C:\Apache24\htdocs\rnce\common\messages\es-VE\app.php:26
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-04-05 16:51:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => 'e42f609b9321ce9abe73accfda97a761c4fab43acb3752ac4ae6fb27a5384ab6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WmsDmZoQzh58c-i_0gNyxjCXyG934kju\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php?r=activos%2Findex'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=e42f609b9321ce9abe73accfda97a761c4fab43acb3752ac4ae6fb27a5384ab6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WmsDmZoQzh58c-i_0gNyxjCXyG934kju%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '56935'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428268908.04
+    'REQUEST_TIME' => 1428268908
+]
+2015-04-05 16:52:00 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:51:59 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => 'e42f609b9321ce9abe73accfda97a761c4fab43acb3752ac4ae6fb27a5384ab6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WmsDmZoQzh58c-i_0gNyxjCXyG934kju\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'newotu'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php?r=activos%2Findex'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=e42f609b9321ce9abe73accfda97a761c4fab43acb3752ac4ae6fb27a5384ab6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WmsDmZoQzh58c-i_0gNyxjCXyG934kju%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '56939'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428268919.873
+    'REQUEST_TIME' => 1428268919
+]
+2015-04-05 16:53:24 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'commmon\models\Bienes' not found' in C:\Apache24\htdocs\rnce\frontend\controllers\ActivosController.php:31
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-04-05 16:53:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'activos/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => 'e42f609b9321ce9abe73accfda97a761c4fab43acb3752ac4ae6fb27a5384ab6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WmsDmZoQzh58c-i_0gNyxjCXyG934kju\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=e42f609b9321ce9abe73accfda97a761c4fab43acb3752ac4ae6fb27a5384ab6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WmsDmZoQzh58c-i_0gNyxjCXyG934kju%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '56950'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=activos%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=activos%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428269003.976
+    'REQUEST_TIME' => 1428269003
+]
+2015-04-05 16:54:38 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in C:\Apache24\htdocs\rnce\frontend\views\activos\_form.php:25
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\frontend\views\activos\_form.php(25): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\Apache24\\htd...', 25, Array)
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Apache24\\htd...', Array, NULL)
+#4 C:\Apache24\htdocs\rnce\frontend\views\activos\index.php(14): yii\base\View->render('_form', Array)
+#5 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Apache24\\htd...')
+#6 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Apache24\\htd...', Array)
+#7 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Apache24\\htd...', Array, Object(frontend\controllers\ActivosController))
+#8 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\ActivosController))
+#9 C:\Apache24\htdocs\rnce\frontend\controllers\ActivosController.php(32): yii\base\Controller->render('index', Array)
+#10 [internal function]: frontend\controllers\ActivosController->actionIndex()
+#11 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#12 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#13 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#14 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('activos/index', Array)
+#15 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#17 {main}
+2015-04-05 16:54:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'activos/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => 'e42f609b9321ce9abe73accfda97a761c4fab43acb3752ac4ae6fb27a5384ab6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WmsDmZoQzh58c-i_0gNyxjCXyG934kju\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=e42f609b9321ce9abe73accfda97a761c4fab43acb3752ac4ae6fb27a5384ab6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WmsDmZoQzh58c-i_0gNyxjCXyG934kju%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '56957'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=activos%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=activos%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428269078.195
+    'REQUEST_TIME' => 1428269078
+]

@@ -41,6 +41,7 @@ AppAsset::register($this);
                 ['label' => 'Bienes',
                     'items' => [
                          ['label' => 'Crear bien', 'url' => ['/bienes/create']],
+                         ['label' => 'Activos', 'url' => ['/activos/index']],
                          ['label' => 'Aqui van los otros', 'url' => ['#']],
                     ],
                 ],

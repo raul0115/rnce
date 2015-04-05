@@ -17,13 +17,13 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    'Are you sure you want to delete this item?' => '',
+    'Are you sure you want to delete this item?' => '¿Estás seguro que deseass eliminar este elemento?',
     'Bienes' => '',
     'Contratista ID' => '',
     'Create' => 'Crear',
     'Create Bienes' => 'Crear Bienes',
-    'Delete' => '',
-    'Depreciable' =asdffgsdfgsdfgdfsg> '',
+    'Delete' => 'Eliminar',
+    'Depreciable' => '',
     'Detalle' => '',
     'Deterioro' => '',
     'Fecha Origen' => '',
