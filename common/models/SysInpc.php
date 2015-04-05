@@ -48,7 +48,7 @@ class SysInpc extends \yii\db\ActiveRecord
             'id' => 'ID',
             'mes' => 'Mes',
             'indice' => 'Indice',
-            'anho' => 'Anho',
+            'anho' => 'Año',
             'sys_status' => 'Sys Status',
             'sys_fecha' => 'Sys Fecha',
         ];

@@ -363,5 +363,4 @@ table:  Product_tag
 
 
 $currentTags = Tag::find()->innerJoin('product_tag', 'tag.id = product_tag.tag_id')->where(['product_id' => $model->id])->all();
-
 ?>
