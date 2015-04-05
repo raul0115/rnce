@@ -8,7 +8,7 @@ use yii\widgets\Menu;
 ?>
 <div class="site-index">
     <?php 
-        NavBar::begin(['brandLabel' => '']);
+/*        NavBar::begin(['brandLabel' => '']);
         echo Nav::widget([
             'items' => [
                 ['label' => 'Efectivo Caja', 'url' => ['/efectivo-caja/index']],
@@ -27,7 +27,38 @@ use yii\widgets\Menu;
             ],
         ]);
         NavBar::end();
+*/
 
+echo Yii::$app->formatter->asPercent(0.125, 2); // output: 12.50%
+echo "<br>";
+echo Yii::$app->formatter->asEmail('cebe@example.com'); // output: <a href="mailto:cebe@example.com">cebe@example.com</a>
+echo "<br>";
+echo Yii::$app->formatter->asBoolean(true); // output: Yes
+echo "<br>";
+// it also handles display of null values:
+echo Yii::$app->formatter->asDate(null); // output: (Not set)
+echo "<br>";
+        //Yii::$app->formatter->locale = 'es-MX';
+echo Yii::$app->formatter->asDate('2014-12-20'); // output: January 1, 2014
+echo "<br>";
+echo Yii::$app->formatter->asTime(1412599260); // 14:41:00
+echo "<br>";
+echo Yii::$app->formatter->asTime('2014-10-06 12:41:00'); // 14:41:00
+echo "<br>";
+echo Yii::$app->formatter->asTime('2014-10-06 14:41:00 CEST'); // 14:41:00
+echo "<br>";
+echo Yii::$app->formatter->asDecimal(20000000000.66464565); // 14:41:00
+echo "<br>";
+echo Yii::$app->formatter->asCurrency(1412599260); // 14:41:00
+echo "<br>";
+echo Yii::$app->formatter->asTime(1412599260); // 14:41:00
+echo "<br>";
+/*echo "<br>";
+Yii::$app->formatter->locale = 'de-DE';
+echo Yii::$app->formatter->asDate('2014-01-01'); // output: 1. Januar 2014
+echo "<br>";
+Yii::$app->formatter->locale = 'ru-RU';
+echo Yii::$app->formatter->asDate('2014-01-01'); // output: 1 января 2014 г.*/
     ?>
 
     <!-- <div class="jumbotron">
