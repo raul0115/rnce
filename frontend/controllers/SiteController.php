@@ -70,6 +70,16 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionEdoresultados()
+    {
+        return $this->render('edoresultados');
+    }
+
+    public function actionBalancegeneral()
+    {
+        return $this->render('balancegeneral');
+    }
+
     public function actionLogin()
     {
         if (!\Yii::$app->user->isGuest) {
