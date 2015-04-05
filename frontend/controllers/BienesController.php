@@ -1,10 +1,10 @@
 <?php
 
-namespace app\controllers;
+namespace frontend\controllers;
 
 use Yii;
-use app\models\Bienes;
-use app\models\BienesSearch;
+use frontend\models\Bienes;
+use frontend\models\BienesSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -12,6 +12,7 @@ use yii\filters\VerbFilter;
 /**
  * BienesController implements the CRUD actions for Bienes model.
  */
+
 class BienesController extends Controller
 {
     public function behaviors()

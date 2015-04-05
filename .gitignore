@@ -18,9 +18,8 @@ Thumbs.db
 # composer vendor dir
 /vendor
 /frontend_old
-
-#
 /runtime
+
 
 # composer itself is not needed
 composer.phar
@@ -34,4 +33,5 @@ phpunit.phar
 /phpunit.xml
 frontend/runtime/debug/index.data
 frontend/runtime/logs/app.log
+frontend/runtime/debug/index.data
 frontend/runtime/debug/index.data
