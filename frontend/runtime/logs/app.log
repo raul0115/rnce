@@ -2432,3 +2432,224 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1428196778.153
     'REQUEST_TIME' => 1428196778
 ]
+2015-04-04 20:56:39 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\BienesSearch' in file: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce/frontend/models/BienesSearch.php. Namespace missing?' in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\models...')
+#1 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php(36): spl_autoload_call('frontend\models...')
+#2 [internal function]: frontend\controllers\BienesController->actionIndex()
+#3 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#6 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('bienes', Array)
+#7 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-04-04 20:56:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => 'f9def5bfecd2e7ff5cba2f0a4a2ca1ca4fe76539d77dbd34056ff86c514f2d72a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pHoMhLKEGbuZlf8fNRFVlyOuwdoA4RNe\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=f9def5bfecd2e7ff5cba2f0a4a2ca1ca4fe76539d77dbd34056ff86c514f2d72a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pHoMhLKEGbuZlf8fNRFVlyOuwdoA4RNe%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '64888'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428197199.29
+    'REQUEST_TIME' => 1428197199
+]
+2015-04-04 20:56:49 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\Bienes' in file: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/models/Bienes.php. Namespace missing?' in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\models\Bien...')
+#1 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\models\BienesSearch.php(14): spl_autoload_call('app\models\Bien...')
+#2 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\BaseYii.php(288): include('C:\Program File...')
+#3 [internal function]: yii\BaseYii::autoload('frontend\models...')
+#4 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php(36): spl_autoload_call('frontend\models...')
+#5 [internal function]: frontend\controllers\BienesController->actionIndex()
+#6 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#9 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('bienes', Array)
+#10 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-04-04 20:56:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => 'f9def5bfecd2e7ff5cba2f0a4a2ca1ca4fe76539d77dbd34056ff86c514f2d72a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pHoMhLKEGbuZlf8fNRFVlyOuwdoA4RNe\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=f9def5bfecd2e7ff5cba2f0a4a2ca1ca4fe76539d77dbd34056ff86c514f2d72a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pHoMhLKEGbuZlf8fNRFVlyOuwdoA4RNe%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '64900'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428197209.21
+    'REQUEST_TIME' => 1428197209
+]
+2015-04-04 20:56:50 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\Bienes' in file: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/models/Bienes.php. Namespace missing?' in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\models\Bien...')
+#1 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\models\BienesSearch.php(14): spl_autoload_call('app\models\Bien...')
+#2 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\BaseYii.php(288): include('C:\Program File...')
+#3 [internal function]: yii\BaseYii::autoload('frontend\models...')
+#4 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php(36): spl_autoload_call('frontend\models...')
+#5 [internal function]: frontend\controllers\BienesController->actionIndex()
+#6 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#9 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('bienes', Array)
+#10 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-04-04 20:56:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => 'f9def5bfecd2e7ff5cba2f0a4a2ca1ca4fe76539d77dbd34056ff86c514f2d72a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pHoMhLKEGbuZlf8fNRFVlyOuwdoA4RNe\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=f9def5bfecd2e7ff5cba2f0a4a2ca1ca4fe76539d77dbd34056ff86c514f2d72a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pHoMhLKEGbuZlf8fNRFVlyOuwdoA4RNe%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '64901'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428197210.114
+    'REQUEST_TIME' => 1428197210
+]
+2015-04-04 21:01:50 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\BienesController' in file: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce/frontend/controllers/BienesController.php. Namespace missing?' in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\contro...')
+#1 [internal function]: spl_autoload_call('frontend\contro...')
+#2 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\contro...')
+#3 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('bienes')
+#4 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('bienes/create')
+#5 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('bienes/create', Array)
+#6 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2015-04-04 21:01:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => 'f9def5bfecd2e7ff5cba2f0a4a2ca1ca4fe76539d77dbd34056ff86c514f2d72a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pHoMhLKEGbuZlf8fNRFVlyOuwdoA4RNe\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=f9def5bfecd2e7ff5cba2f0a4a2ca1ca4fe76539d77dbd34056ff86c514f2d72a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pHoMhLKEGbuZlf8fNRFVlyOuwdoA4RNe%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '65209'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428197510.802
+    'REQUEST_TIME' => 1428197510
+]
