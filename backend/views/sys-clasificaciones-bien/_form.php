@@ -14,11 +14,11 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'nombre')->textInput(['maxlength' => 255]) ?>
 
-    <?= $form->field($model, 'descripcion')->textInput(['maxlength' => 255]) ?>
+    <?= $form->field($model, 'descripcion')->textArea(['maxlength' => 255]) ?>
 
-    <?= $form->field($model, 'sys_status')->checkbox() ?>
+    <?php  /*$form->field($model, 'sys_status')->checkbox()
 
-    <?= $form->field($model, 'sys_fecha')->textInput() ?>
+     $form->field($model, 'sys_fecha')->textInput() */ ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? Yii::t('app', 'Create') : Yii::t('app', 'Update'), ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
