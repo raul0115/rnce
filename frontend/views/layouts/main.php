@@ -36,7 +36,14 @@ AppAsset::register($this);
                 ['label' => 'Inicio', 'url' => ['/site/index']],
                 ['label' => 'Balance general', 'url' => ['/site/balancegeneral']],
                 // ['label' => 'Acerca', 'url' => ['/site/about']],
-                ['label' => 'Estado de resultados', 'url' => ['/site/edoresultados']],
+                ['label' => 'Estado de resultados', 'url' => ['/bienes/edoresultados']],
+                //['label' => 'Bienes', 'url' => ['/bienes/create']],
+                ['label' => 'Bienes',
+                    'items' => [
+                         ['label' => 'Crear bien', 'url' => ['/bienes/create']],
+                         ['label' => 'Aqui van los otros', 'url' => ['']],
+                    ],
+                ],
             ];
             if (Yii::$app->user->isGuest) {
                 $menuItems[] = ['label' => 'Registrate', 'url' => ['/site/signup']];
