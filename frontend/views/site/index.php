@@ -9,7 +9,7 @@ use yii\widgets\Menu;
 <div class="site-index">
     <?php 
 
-        NavBar::begin(['brandLabel' => '']);
+/*        NavBar::begin(['brandLabel' => '']);
 
         echo Nav::widget([
             'items' => [
@@ -28,7 +28,7 @@ use yii\widgets\Menu;
                 // //['label' => 'Tipos inversiones', 'url' => ['/tipos-inversiones/index']],
             ],
         ]);
-        NavBar::end();
+        NavBar::end();*/
 
 
         ?>
