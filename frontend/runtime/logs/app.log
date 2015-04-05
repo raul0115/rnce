@@ -8288,3 +8288,232 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1428242694.467
     'REQUEST_TIME' => 1428242694
 ]
+2015-04-05 10:17:36 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The default currency code for the formatter is not defined.' in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\i18n\Formatter.php:926
+Stack trace:
+#0 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\site\index.php(55): yii\i18n\Formatter->asCurrency(1412599260)
+#1 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(325): require('C:\Program File...')
+#2 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Program File...', Array)
+#3 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Program File...', Array, Object(frontend\controllers\SiteController))
+#4 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\SiteController.php(70): yii\base\Controller->render('index')
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#10 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#11 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-04-05 10:17:36 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => 'f9def5bfecd2e7ff5cba2f0a4a2ca1ca4fe76539d77dbd34056ff86c514f2d72a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pHoMhLKEGbuZlf8fNRFVlyOuwdoA4RNe\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=f9def5bfecd2e7ff5cba2f0a4a2ca1ca4fe76539d77dbd34056ff86c514f2d72a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pHoMhLKEGbuZlf8fNRFVlyOuwdoA4RNe%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54897'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rnce/frontend/web/index.php'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428245256.605
+    'REQUEST_TIME' => 1428245256
+]
+2015-04-05 10:26:06 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The default currency code for the formatter is not defined.' in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\i18n\Formatter.php:926
+Stack trace:
+#0 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\site\index.php(55): yii\i18n\Formatter->asCurrency(1412599260)
+#1 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(325): require('C:\Program File...')
+#2 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Program File...', Array)
+#3 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Program File...', Array, Object(frontend\controllers\SiteController))
+#4 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\SiteController.php(70): yii\base\Controller->render('index')
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#10 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#11 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-04-05 10:26:06 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => 'f9def5bfecd2e7ff5cba2f0a4a2ca1ca4fe76539d77dbd34056ff86c514f2d72a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pHoMhLKEGbuZlf8fNRFVlyOuwdoA4RNe\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=f9def5bfecd2e7ff5cba2f0a4a2ca1ca4fe76539d77dbd34056ff86c514f2d72a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pHoMhLKEGbuZlf8fNRFVlyOuwdoA4RNe%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '55185'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rnce/frontend/web/index.php'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428245766.347
+    'REQUEST_TIME' => 1428245766
+]
+2015-04-05 10:29:21 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/edoresultados' in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('edoresultados', Array)
+#1 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/edoresulta...', Array)
+#2 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-05 10:29:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/edoresultados'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => 'f9def5bfecd2e7ff5cba2f0a4a2ca1ca4fe76539d77dbd34056ff86c514f2d72a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pHoMhLKEGbuZlf8fNRFVlyOuwdoA4RNe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=f9def5bfecd2e7ff5cba2f0a4a2ca1ca4fe76539d77dbd34056ff86c514f2d72a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pHoMhLKEGbuZlf8fNRFVlyOuwdoA4RNe%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '55233'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fedoresultados'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=site%2Fedoresultados'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428245961.541
+    'REQUEST_TIME' => 1428245961
+]
+2015-04-05 10:35:25 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/balancegeneral' in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('balancegeneral', Array)
+#1 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/balancegen...', Array)
+#2 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-05 10:35:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/balancegeneral'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => 'f9def5bfecd2e7ff5cba2f0a4a2ca1ca4fe76539d77dbd34056ff86c514f2d72a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pHoMhLKEGbuZlf8fNRFVlyOuwdoA4RNe\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php?r=site%2Fedoresultados'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=f9def5bfecd2e7ff5cba2f0a4a2ca1ca4fe76539d77dbd34056ff86c514f2d72a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pHoMhLKEGbuZlf8fNRFVlyOuwdoA4RNe%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '55636'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fbalancegeneral'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=site%2Fbalancegeneral'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428246325.774
+    'REQUEST_TIME' => 1428246325
+]

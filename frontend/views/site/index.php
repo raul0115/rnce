@@ -1,6 +1,6 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = 'My Yii Application';
+$this->title = 'Registro Nacional de Contratistas -- Inicio';
 
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
@@ -52,7 +52,7 @@ echo Yii::$app->formatter->asTime('2014-10-06 14:41:00 CEST'); // 14:41:00
 echo "<br>";
 echo Yii::$app->formatter->asDecimal(20000000000.66464565); // 14:41:00
 echo "<br>";
-echo Yii::$app->formatter->asCurrency(1412599260); // 14:41:00
+//echo Yii::$app->formatter->asCurrency(1412599260); // 14:41:00
 echo "<br>";
 echo Yii::$app->formatter->asTime(1412599260); // 14:41:00
 echo "<br>";
@@ -109,12 +109,5 @@ echo Yii::$app->formatter->asDate('2014-01-01'); // output: 1 января 2014 
         </div>
     
     </div> -->
-
-        <h2> BALANCE GENERAL</h2>
-        <?=  $this->render('_activos'); ?> 
-        <?=  $this->render('_pasivos'); ?>
-        <br><br><br>
-        <h2> ESTADO DE RESULTADOS</h2>
-        <?=  $this->render('_resultados'); ?>
-
+    
 </div>

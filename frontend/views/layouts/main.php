@@ -34,8 +34,9 @@ AppAsset::register($this);
             ]);
             $menuItems = [
                 ['label' => 'Inicio', 'url' => ['/site/index']],
-                ['label' => 'Acerca', 'url' => ['/site/about']],
-                ['label' => 'Contactanos', 'url' => ['/site/contact']],
+                ['label' => 'Balance general', 'url' => ['/site/balancegeneral']],
+                // ['label' => 'Acerca', 'url' => ['/site/about']],
+                ['label' => 'Estado de resultados', 'url' => ['/site/edoresultados']],
             ];
             if (Yii::$app->user->isGuest) {
                 $menuItems[] = ['label' => 'Registrate', 'url' => ['/site/signup']];
@@ -65,8 +66,8 @@ AppAsset::register($this);
 
     <footer class="footer">
         <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
-        <p class="pull-right"><?= Yii::powered() ?></p>
+        <p class="pull-left">&copy; Registro Nacional de Contratistas <?= date('Y') ?></p>
+        <p class="pull-right"><?php // Yii::powered() ?></p>
         </div>
     </footer>
 

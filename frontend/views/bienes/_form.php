@@ -52,5 +52,4 @@ use app\models\SysTiposBienes;
     </div>
 
     <?php ActiveForm::end(); ?>
-
 </div>
