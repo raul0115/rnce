@@ -4,10 +4,10 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Bienes */
+/* @var $model common\models\Bienes */
 
-$this->title = 'Crear Bienes';
-$this->params['breadcrumbs'][] = ['label' => 'Bienes', 'url' => ['index']];
+$this->title = Yii::t('app', 'Create Bienes');
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Bienes'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="bienes-create">

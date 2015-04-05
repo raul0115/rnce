@@ -3,17 +3,15 @@
 namespace frontend\controllers;
 
 use Yii;
-use app\models\Bienes;
+use common\models\Bienes;
 use app\models\BienesSearch;
-use yii\web\Controller;
+use common\components\BaseController;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use common\components\BaseController;
 
 /**
  * BienesController implements the CRUD actions for Bienes model.
  */
-
 class BienesController extends BaseController
 {
     public function behaviors()
@@ -36,7 +34,7 @@ class BienesController extends BaseController
     {
         $searchModel = new BienesSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-        //$this->probando();
+
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,

@@ -1,4 +1,22 @@
+/**************** PARA GENERAR LOS CRUDS ***************/
+MODELOS
+
+Name space: common\components;
+
+Base class: common\components\BaseActiveRecord;
+
+
+CONTROLADORES
+
+
+Base Controller Class: common\components\BaseController
+
 <?php
+
+
+
+
+
 
 
 /**************************   FORMATEO DE  DATOS   **************************/
