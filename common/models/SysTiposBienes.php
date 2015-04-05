@@ -14,10 +14,10 @@ use Yii;
  * @property string $descripcion
  * @property integer $sys_clasificacion_bien_id
  *
- * @property SysClasificacionesBien $sysClasificacionBien
  * @property MejorasPropiedades[] $mejorasPropiedades
+ * @property SysClasificacionesBien $sysClasificacionBien
  */
-class SysTiposBienes extends \yii\db\ActiveRecord
+class SysTiposBienes extends \common\components\BaseActiveRecord
 {
     /**
      * @inheritdoc
@@ -48,21 +48,13 @@ class SysTiposBienes extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
-            'nombre' => 'Nombre',
-            'sys_status' => 'Sys Status',
-            'sys_fecha' => 'Sys Fecha',
-            'descripcion' => 'Descripcion',
-            'sys_clasificacion_bien_id' => 'Sys Clasificacion Bien ID',
+            'id' => Yii::t('app', 'ID'),
+            'nombre' => Yii::t('app', 'Nombre'),
+            'sys_status' => Yii::t('app', 'Sys Status'),
+            'sys_fecha' => Yii::t('app', 'Sys Fecha'),
+            'descripcion' => Yii::t('app', 'Descripcion'),
+            'sys_clasificacion_bien_id' => Yii::t('app', 'Sys Clasificacion Bien ID'),
         ];
-    }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getSysClasificacionBien()
-    {
-        return $this->hasOne(SysClasificacionesBien::className(), ['id' => 'sys_clasificacion_bien_id']);
     }
 
     /**
@@ -71,5 +63,13 @@ class SysTiposBienes extends \yii\db\ActiveRecord
     public function getMejorasPropiedades()
     {
         return $this->hasMany(MejorasPropiedades::className(), ['sys_tipo_bien_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getSysClasificacionBien()
+    {
+        return $this->hasOne(SysClasificacionesBien::className(), ['id' => 'sys_clasificacion_bien_id']);
     }
 }

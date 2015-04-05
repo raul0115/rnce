@@ -8,7 +8,7 @@ use yii\data\ActiveDataProvider;
 use common\models\SysTiposBienes;
 
 /**
- * SysTiposBienesSearch represents the model behind the search form about `app\models\SysTiposBienes`.
+ * SysTiposBienesSearch represents the model behind the search form about `common\models\SysTiposBienes`.
  */
 class SysTiposBienesSearch extends SysTiposBienes
 {

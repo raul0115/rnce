@@ -3,7 +3,7 @@ return [
     'sourcePath' => __DIR__. '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR,
     'languages' => ['es-VE',/*'es-MX','es-ES','es-LA',*/], //Add languages to the array for the language files to be generated.
     'translator' => 'Yii::t',
-    'sort' => false,
+    'sort' => true,
     'removeUnused' => false,
     'only' => ['*.php'],
     'except' => [

@@ -11109,3 +11109,511 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1428265922.175
     'REQUEST_TIME' => 1428265922
 ]
+2015-04-05 16:07:10 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Apache24\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Apache24\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Apache24\htdocs\rnce\frontend\views\bienes\index.php:10
+    in C:\Apache24\htdocs\rnce\frontend\controllers\BienesController.php:41
+2015-04-05 16:07:10 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'bienes/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => '172179c03c59bc5d2a696dbf0ea64ffd3be58479265d6ed1bad5033ec9a3196fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"AFTs7qrb9czlryq2vND2t2m8WqmvwEMg\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'newotu'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=172179c03c59bc5d2a696dbf0ea64ffd3be58479265d6ed1bad5033ec9a3196fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22AFTs7qrb9czlryq2vND2t2m8WqmvwEMg%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '56449'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266230.377
+    'REQUEST_TIME' => 1428266230
+]
+2015-04-05 16:07:11 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Apache24\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Apache24\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Apache24\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Apache24\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:07:12 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:07:11 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => '172179c03c59bc5d2a696dbf0ea64ffd3be58479265d6ed1bad5033ec9a3196fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"AFTs7qrb9czlryq2vND2t2m8WqmvwEMg\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'newotu'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php?r=bienes%2Findex'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=172179c03c59bc5d2a696dbf0ea64ffd3be58479265d6ed1bad5033ec9a3196fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22AFTs7qrb9czlryq2vND2t2m8WqmvwEMg%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '56452'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266231.862
+    'REQUEST_TIME' => 1428266231
+]
+2015-04-05 16:12:30 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Apache24\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Apache24\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Apache24\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Apache24\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:12:30 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:12:30 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => '172179c03c59bc5d2a696dbf0ea64ffd3be58479265d6ed1bad5033ec9a3196fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"AFTs7qrb9czlryq2vND2t2m8WqmvwEMg\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'newotu'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=172179c03c59bc5d2a696dbf0ea64ffd3be58479265d6ed1bad5033ec9a3196fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22AFTs7qrb9czlryq2vND2t2m8WqmvwEMg%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '56482'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266550.806
+    'REQUEST_TIME' => 1428266550
+]
+2015-04-05 16:13:12 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '=', expecting ']'' in C:\Apache24\htdocs\rnce\common\messages\es-VE\app.php:26
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-04-05 16:13:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => '172179c03c59bc5d2a696dbf0ea64ffd3be58479265d6ed1bad5033ec9a3196fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"AFTs7qrb9czlryq2vND2t2m8WqmvwEMg\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=172179c03c59bc5d2a696dbf0ea64ffd3be58479265d6ed1bad5033ec9a3196fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22AFTs7qrb9czlryq2vND2t2m8WqmvwEMg%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '56490'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266592.432
+    'REQUEST_TIME' => 1428266592
+]
+2015-04-05 16:13:19 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Apache24\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Apache24\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Apache24\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Apache24\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:13:19 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:13:19 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => '172179c03c59bc5d2a696dbf0ea64ffd3be58479265d6ed1bad5033ec9a3196fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"AFTs7qrb9czlryq2vND2t2m8WqmvwEMg\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'newotu'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=172179c03c59bc5d2a696dbf0ea64ffd3be58479265d6ed1bad5033ec9a3196fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22AFTs7qrb9czlryq2vND2t2m8WqmvwEMg%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '56491'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266599.596
+    'REQUEST_TIME' => 1428266599
+]
+2015-04-05 16:14:25 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/#' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('#', Array)
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/#', Array)
+#2 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-05 16:14:24 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'site/#'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => '172179c03c59bc5d2a696dbf0ea64ffd3be58479265d6ed1bad5033ec9a3196fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"AFTs7qrb9czlryq2vND2t2m8WqmvwEMg\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'newotu'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=172179c03c59bc5d2a696dbf0ea64ffd3be58479265d6ed1bad5033ec9a3196fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22AFTs7qrb9czlryq2vND2t2m8WqmvwEMg%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '56512'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2F%23'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=site%2F%23'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266664.945
+    'REQUEST_TIME' => 1428266664
+]
+2015-04-05 16:14:27 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Apache24\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Apache24\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Apache24\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Apache24\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:14:27 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:14:27 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => '172179c03c59bc5d2a696dbf0ea64ffd3be58479265d6ed1bad5033ec9a3196fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"AFTs7qrb9czlryq2vND2t2m8WqmvwEMg\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'newotu'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php?r=site%2F%23'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=172179c03c59bc5d2a696dbf0ea64ffd3be58479265d6ed1bad5033ec9a3196fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22AFTs7qrb9czlryq2vND2t2m8WqmvwEMg%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '56512'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266667.449
+    'REQUEST_TIME' => 1428266667
+]
+2015-04-05 16:15:07 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Apache24\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Apache24\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Apache24\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Apache24\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:15:07 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Apache24\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:15:07 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => '172179c03c59bc5d2a696dbf0ea64ffd3be58479265d6ed1bad5033ec9a3196fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"AFTs7qrb9czlryq2vND2t2m8WqmvwEMg\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'newotu'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php?r=site%2F%23'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=172179c03c59bc5d2a696dbf0ea64ffd3be58479265d6ed1bad5033ec9a3196fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22AFTs7qrb9czlryq2vND2t2m8WqmvwEMg%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '56522'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266707.846
+    'REQUEST_TIME' => 1428266707
+]

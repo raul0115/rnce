@@ -65,14 +65,14 @@ class Bienes extends \common\components\BaseActiveRecord
     {
         return [
             'id' => Yii::t('app', 'ID'),
-            'sys_tipo_bien_id' => Yii::t('app', 'Sys Tipo Bien ID'),
+            'sys_tipo_bien_id' => Yii::t('app', 'Tipo de Bien'),
             'principio_contable' => Yii::t('app', 'Principio Contable'),
             'depreciable' => Yii::t('app', 'Depreciable'),
             'deterioro' => Yii::t('app', 'Deterioro'),
             'detalle' => Yii::t('app', 'Detalle'),
             'origen' => Yii::t('app', 'Origen'),
             'fecha_origen' => Yii::t('app', 'Fecha Origen'),
-            'contratista_id' => Yii::t('app', 'Contratista ID'),
+            'contratista_id' => Yii::t('app', 'Contratista'),
             'propio' => Yii::t('app', 'Propio'),
         ];
     }

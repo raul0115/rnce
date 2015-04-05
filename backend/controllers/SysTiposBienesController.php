@@ -5,14 +5,14 @@ namespace backend\controllers;
 use Yii;
 use common\models\SysTiposBienes;
 use app\models\SysTiposBienesSearch;
-use yii\web\Controller;
+use common\components\BaseController;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
  * SysTiposBienesController implements the CRUD actions for SysTiposBienes model.
  */
-class SysTiposBienesController extends Controller
+class SysTiposBienesController extends BaseController
 {
     public function behaviors()
     {

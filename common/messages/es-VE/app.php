@@ -23,7 +23,7 @@ return [
     'Create' => 'Crear',
     'Create Bienes' => 'Crear Bienes',
     'Delete' => '',
-    'Depreciable' => '',
+    'Depreciable' =asdffgsdfgsdfgdfsg> '',
     'Detalle' => '',
     'Deterioro' => '',
     'Fecha Origen' => '',
