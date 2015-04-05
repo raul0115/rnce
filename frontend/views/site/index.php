@@ -9,28 +9,28 @@ use yii\widgets\Menu;
 <div class="site-index">
     <?php 
 
-/*        NavBar::begin(['brandLabel' => '']);
+        NavBar::begin(['brandLabel' => '']);
 
         echo Nav::widget([
             'items' => [
-                ['label' => 'Efectivo Caja', 'url' => ['/efectivo-caja/index']],
-                ['label' => 'Efectivo Banco', 'url' => ['/efectivo-banco/index']],
-                ['label' => 'Tipo Caja', 'url' => ['/tipos-cajas/index']],
-                ['label' => 'Inversiones', 'url' => ['/inversiones/index']],
-                ['label' => 'Bancos Contratistas', 'url' => ['/bancos-contratistas/index']],
-                ['label' => 'Tipos inversiones', 'url' => ['/tipos-inversiones/index']],
-                ['label' => 'Cuentas por cobrar comerciales', 'url' => ['/cuentas-cobrar-sprivpub/index']],
-                ['label' => 'Otras cuentas cobrar', 'url' => ['/otras-cuentas-cobrar/index']],
-                ['label' => 'Tipos Deudores', 'url' => ['/tipos-deudores/index']],
-                ['label' => 'Representantes legales', 'url' => ['/reps-legales/index']],
-                ['label' => 'Empresas Relacionadas', 'url' => ['/empresas-relacionadas/index']],
-                ['label' => 'Inventarios C', 'url' => ['/inventarios-c/index']],
-                //['label' => 'Tipos inversiones', 'url' => ['/tipos-inversiones/index']],
+                ['label' => 'Bienes', 'url' => ['bienes/index']],
+                // ['label' => 'Efectivo Banco', 'url' => ['/efectivo-banco/index']],
+                // ['label' => 'Tipo Caja', 'url' => ['/tipos-cajas/index']],
+                // ['label' => 'Inversiones', 'url' => ['/inversiones/index']],
+                // ['label' => 'Bancos Contratistas', 'url' => ['/bancos-contratistas/index']],
+                // ['label' => 'Tipos inversiones', 'url' => ['/tipos-inversiones/index']],
+                // ['label' => 'Cuentas por cobrar comerciales', 'url' => ['/cuentas-cobrar-sprivpub/index']],
+                // ['label' => 'Otras cuentas cobrar', 'url' => ['/otras-cuentas-cobrar/index']],
+                // ['label' => 'Tipos Deudores', 'url' => ['/tipos-deudores/index']],
+                // ['label' => 'Representantes legales', 'url' => ['/reps-legales/index']],
+                // ['label' => 'Empresas Relacionadas', 'url' => ['/empresas-relacionadas/index']],
+                // ['label' => 'Inventarios C', 'url' => ['/inventarios-c/index']],
+                // //['label' => 'Tipos inversiones', 'url' => ['/tipos-inversiones/index']],
             ],
         ]);
         NavBar::end();
 
-*/
+
 
 echo Yii::$app->formatter->asPercent(0.125, 2); // output: 12.50%
 echo "<br>";
@@ -50,7 +50,7 @@ echo Yii::$app->formatter->asDateTime('2014-10-06 12:41:00'); // 14:41:00
 echo "<br>";
 echo Yii::$app->formatter->asTime('2014-10-06 14:41:00 CEST'); // 14:41:00
 echo "<br>";
-echo Yii::$app->formatter->asDecimal(20000000000.66464565); // 14:41:00
+echo Yii::$app->formatter->asDecimal(20000000000.66464565,2); // 14:41:00
 echo "<br>";
 echo Yii::$app->formatter->asCurrency(1412599260); // 14:41:00
 echo "<br>";
