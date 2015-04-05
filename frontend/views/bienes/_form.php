@@ -5,6 +5,7 @@ use yii\widgets\ActiveForm;
 use yii\jui\DatePicker;
 use yii\helpers\ArrayHelper;
 use app\models\SysFormasOrg;
+use app\models\SysTiposBienes;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Bienes */
@@ -14,13 +15,9 @@ use app\models\SysFormasOrg;
 <div class="bienes-form">
 
     <?php $form = ActiveForm::begin(); 
-        $tipoBien = ArrayHelper::map(SysFormasOrg::find()->all(), 'id', 'nombre');
+        $principioContable = ArrayHelper::map(SysFormasOrg::find()->all(), 'id', 'nombre');
+        $tipoBien = ArrayHelper::map(SysTiposBienes::find()->all(), 'id', 'nombre');
     ?>
-
-    <?php
-        $itemsA = array('2010' => 2010, '2011' => 2011, '2012' => 2012, '2013' => 2013, '2014' => 2014, '2015' => 2015);
-    ?>
-    <!--<?= $form->field($model, 'sys_tipo_bien_id')->textInput() ?>-->
 
     <?= $form->field($model, 'sys_tipo_bien_id')->dropDownList(
             $tipoBien,
@@ -28,11 +25,11 @@ use app\models\SysFormasOrg;
         );
     ?>
 
-    <?php
-        //print_r(SysFormasOrg::find()->all());//[0]['nombre']);
+    <?= $form->field($model, 'principio_contable')->dropDownList(
+            $principioContable,
+            ['prompt'=>'Seleccione el principio contable']
+        );
     ?>
-
-    <?= $form->field($model, 'principio_contable')->textInput() ?>
 
     <?= $form->field($model, 'depreciable')->checkbox() ?>
 
@@ -45,18 +42,8 @@ use app\models\SysFormasOrg;
     <?= $form->field($model, 'fecha_origen')->widget(\yii\jui\DatePicker::classname(), [
         'language' => 'es',
         'dateFormat' => 'dd-MM-yyyy',
-    ])
+    ])?>
 
-       /* DatePicker::widget([
-            'model' => $model,
-            'attribute' => 'fecha_origen',
-            'language' => 'es',
-            'dateFormat' => 'dd-MM-yyyy',
-        ]);*/
-
-    ?>
-
-    <!--<? $form->field($model, 'contratista_id')->textInput() ?>-->
 
     <?= $form->field($model, 'propio')->checkbox() ?>
 
