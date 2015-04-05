@@ -2,7 +2,8 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use yii\jui\DatePicker;
+//use yii\jui\DatePicker;
+use kartik\datetime\DateTimePicker;
 use yii\helpers\ArrayHelper;
 use common\models\SysFormasOrg;
 use common\models\SysTiposBienes;
@@ -36,11 +37,22 @@ use common\models\SysTiposBienes;
     <?php /* $form->field($model, 'deterioro')->checkbox()*/ ?>
 
      <?= $form->field($model, 'origen')->textarea(['maxlength' => 255]) ?>
-
-     <?= $form->field($model, 'fecha_origen')->widget(\yii\jui\DatePicker::classname(), [
+ 
+     <?php /*echo $form->field($model, 'fecha_origen')->widget(\yii\jui\DatePicker::classname(), [
         'language' => 'es',
         'dateFormat' => 'dd-MM-yyyy',
-    ])?>
+    ]) */?> 
+     <?= $form->field($model, 'fecha_origen')->widget(DateTimePicker::classname(), [
+/*        'language' => 'es',
+        'dateFormat' => 'dd-MM-yyyy',*/
+                'options' => ['placeholder' => 'Seleccionar fecha origen'],
+                'convertFormat' => true,
+                'pluginOptions' => [
+                    'format' => 'd-M-yyyy',
+                    'startDate' => date('d-m-Y'),//'01-Mar-2014 12:00 AM',
+                    'todayHighlight' => true
+                ]
+    ]) ?>
 
 
     <?= $form->field($model, 'detalle')->textarea(['maxlength' => 255]) ?>
