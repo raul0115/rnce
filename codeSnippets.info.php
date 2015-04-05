@@ -39,7 +39,136 @@ Yii::$app->formatter->locale = 'ru-RU';
 Para hacer una busqueda en todos los elementos usar: CLASSNAME::FIND()->ALL(), EJ --> SysFormasOrg::find()->all()
 
 
-/**************************   SNIPPETS *******************************/
+/**************************   FORM  *******************************/
+
+/*****************Use the namespace For ActiveFor*************/
+
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+
+Active Form Begin And End
+
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+
+//$form = ActiveForm::begin(); //Default Active Form begin
+$form = ActiveForm::begin([
+    'id' => 'active-form',
+    'options' => [
+                'class' => 'form-horizontal',
+                'enctype' => 'multipart/form-data'
+                ],
+])
+/* ADD FORM FIELDS */
+ActiveForm::end();
+
+/*****************Text Input Field***************/
+?>
+<?php
+$form->field($model, 'desc')->textarea();
+$form->field($model, 'desc')->textarea()->label('Description');
+$form->field($model, 'desc')->textarea(array('rows'=>2,'cols'=>5));
+
+
+/*****************Text Input Field***************/
+
+ $form->field($model, 'desc')->textarea();
+$form->field($model, 'desc')->textarea()->label('Description');
+$form->field($model, 'desc')->textarea(array('rows'=>2,'cols'=>5));
+
+/*****************Password Input Field***************/
+
+//Format 1
+$form->field($model, 'password')->input('password')
+//Format 2
+$form->field($model, 'password')->passwordInput()
+//Format 3
+$form->field($model, 'password')->passwordInput()->hint('Password should be within A-Za-z0-9')->label('Password Hint')
+
+
+/*****************Email Input Field***************/
+$form->field($model, 'email')->input('email')
+
+/*****************File Upload***************/
+$form->field($model, 'uploadFile')->fileInput()
+echo $form->field($model, 'uploadFile[]')->fileInput(['multiple'=>'multiple']);
+
+
+/*****************Checkbox Button Field***************/
+<!-- CHECKBOX BUTTON DEFAULT LABEL -->
+ $form->field($model, 'population')->checkbox(); 
+<!-- CHECKBOX BUTTON WITHOUT LABEL -->
+ $form->field($model, 'population')->checkbox(array('label'=>'')); 
+<!-- CHECKBOX BUTTON WITH CUSTOM LABEL -->
+ $form->field($model, 'population')  ->checkbox(array('label'=>''))
+                                        ->label('Gender'); 
+<!-- CHECKBOX BUTTON WITH LABEL OPTIONS, DISABLED AND STYLE PROPERTIES -->
+ $form->field($model, 'population')->checkbox(array(
+                                'label'=>'',
+                                'labelOptions'=>array('style'=>'padding:5px;'),
+                                'disabled'=>true                                
+                                ))
+                                ->label('Gender'); 
+
+
+/*****************Checkbox List Input Field***************/
+echo $form->field($model, 'name[]')->checkboxList(['a' => 'Item A', 'b' => 'Item B', 'c' => 'Item C']);
+
+
+/*****************Radio Button Field***************/
+<!-- RADIO BUTTON DEFAULT LABEL -->
+$form->field($model, 'gender')->radio();
+<!-- RADIO BUTTON WITHOUT LABEL -->
+$form->field($model, 'gender')->radio(array('label'=>''));
+<!-- RADIO BUTTON WITH CUSTOM LABEL -->
+$form->field($model, 'gender')  ->radio(array('label'=>''))
+                                        ->label('Gender');
+<!-- RADIO BUTTON WITH LABEL OPTIONS -->
+
+$form->field($model, 'gender')->radio(array(
+                                'label'=>'',
+                                'labelOptions'=>array('style'=>'padding:5px;')))
+                                ->label('Gender');
+
+
+
+$form->field($model, 'population')->radioList(array('1'=>'One',2=>'Two'));
+
+
+/*****************ListBox Field***************/
+<!-- Listbox with prompt text -->
+$form->field($model, 'population')-> listBox(
+            array('1'=>'1',2=>'2',3=>3,4=>4,5=>5),
+            array('prompt'=>'Select')
+            ); 
+<!-- Listbox with size -->
+ $form->field($model, 'population')-> listBox(
+            array('1'=>'1',2=>'2',3=>3,4=>4,5=>5),
+            array('prompt'=>'Select','size'=>3)
+            ); 
+<!-- Listbox with disabled, style properties -->
+ $form->field($model, 'population')-> listBox(
+            array('1'=>'1',2=>'2',3=>3,4=>4,5=>5),
+            array('disabled' => true,'style'=>'background:gray;color:#fff;'))
+            ->label('Gender');
+
+
+/*****************dropDown List Input Field***************/
+
+use yii\helpers\ArrayHelper;
+
+ $dimensionTypes = ArrayHelper::map(DimensionType::find()->orderBy('name')->all(), 'id', 'name')
+ Html::dropDownList('price_type_id', null, $dimensionTypes, array('label' => 'Dimension type'))
+
+$form->field($model, 'sys_tipo_bien_id')->dropDownList(
+            $tipoBien,
+            ['prompt'=>'Seleccione tipo de bien']
+        );
+
+
+<!--link http://www.bsourcecode.com/yiiframework2/yii2-0-activeform-input-fields/-->
+/*******************************END FORM ELEMENT*********************************/
+
 
 /**************************   WIDGETS   **************************/
 
@@ -85,15 +214,6 @@ public function actionDelete() {
         }
 }
 ?>
-
-<?php
-//dropdown field without $form->model
-//Code for select input made from table. Dropdown not using $form->model
-use yii\helpers\ArrayHelper;
-
- $dimensionTypes = ArrayHelper::map(DimensionType::find()->orderBy('name')->all(), 'id', 'name') ?>
-<?= Html::dropDownList('price_type_id', null, $dimensionTypes, array('label' => 'Dimension type')) ?>
-
 <?php
 	//make dropdown select from database foreign key value
 

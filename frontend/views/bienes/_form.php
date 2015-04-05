@@ -31,21 +31,23 @@ use app\models\SysTiposBienes;
         );
     ?>
 
-    <?= $form->field($model, 'depreciable')->checkbox() ?>
+    
 
-    <?= $form->field($model, 'deterioro')->checkbox() ?>
+    <?php /* $form->field($model, 'deterioro')->checkbox()*/ ?>
 
-    <?= $form->field($model, 'detalle')->textInput(['maxlength' => 255]) ?>
+     <?= $form->field($model, 'origen')->textarea(['maxlength' => 255]) ?>
 
-    <?= $form->field($model, 'origen')->textInput(['maxlength' => 255]) ?>
-
-    <?= $form->field($model, 'fecha_origen')->widget(\yii\jui\DatePicker::classname(), [
+     <?= $form->field($model, 'fecha_origen')->widget(\yii\jui\DatePicker::classname(), [
         'language' => 'es',
         'dateFormat' => 'dd-MM-yyyy',
     ])?>
 
 
+    <?= $form->field($model, 'detalle')->textarea(['maxlength' => 255]) ?>
+
     <?= $form->field($model, 'propio')->checkbox() ?>
+
+    <?= $form->field($model, 'depreciable')->checkbox() ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Crear' : 'Actualizar', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
