@@ -1,18 +1,18 @@
 <?php
 
-namespace frontend\controllers;
+namespace backend\controllers;
 
 use Yii;
-use app\models\SysFormasOrg;
-use app\models\SysFormasOrgSearch;
+use common\models\SysClasificacionesBien;
+use app\models\SysClasificacionesBienSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * SysFormasOrgController implements the CRUD actions for SysFormasOrg model.
+ * SysClasificacionesBienController implements the CRUD actions for SysClasificacionesBien model.
  */
-class SysFormasOrgController extends Controller
+class SysClasificacionesBienController extends Controller
 {
     public function behaviors()
     {
@@ -27,12 +27,12 @@ class SysFormasOrgController extends Controller
     }
 
     /**
-     * Lists all SysFormasOrg models.
+     * Lists all SysClasificacionesBien models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new SysFormasOrgSearch();
+        $searchModel = new SysClasificacionesBienSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -42,7 +42,7 @@ class SysFormasOrgController extends Controller
     }
 
     /**
-     * Displays a single SysFormasOrg model.
+     * Displays a single SysClasificacionesBien model.
      * @param integer $id
      * @return mixed
      */
@@ -54,13 +54,13 @@ class SysFormasOrgController extends Controller
     }
 
     /**
-     * Creates a new SysFormasOrg model.
+     * Creates a new SysClasificacionesBien model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new SysFormasOrg();
+        $model = new SysClasificacionesBien();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -72,7 +72,7 @@ class SysFormasOrgController extends Controller
     }
 
     /**
-     * Updates an existing SysFormasOrg model.
+     * Updates an existing SysClasificacionesBien model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -91,7 +91,7 @@ class SysFormasOrgController extends Controller
     }
 
     /**
-     * Deletes an existing SysFormasOrg model.
+     * Deletes an existing SysClasificacionesBien model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -104,15 +104,15 @@ class SysFormasOrgController extends Controller
     }
 
     /**
-     * Finds the SysFormasOrg model based on its primary key value.
+     * Finds the SysClasificacionesBien model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return SysFormasOrg the loaded model
+     * @return SysClasificacionesBien the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = SysFormasOrg::findOne($id)) !== null) {
+        if (($model = SysClasificacionesBien::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');

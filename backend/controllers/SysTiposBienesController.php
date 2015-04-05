@@ -1,9 +1,9 @@
 <?php
 
-namespace frontend\controllers;
+namespace backend\controllers;
 
 use Yii;
-use app\models\SysTiposBienes;
+use common\models\SysTiposBienes;
 use app\models\SysTiposBienesSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;

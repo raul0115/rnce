@@ -1,18 +1,18 @@
 <?php
 
-namespace frontend\controllers;
+namespace backend\controllers;
 
 use Yii;
-use app\models\SysTipoDocumento;
-use app\models\SysTipoDocumentoSearch;
+use common\models\SysFormasOrg;
+use app\models\SysFormasOrgSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * SysTipoDocumentoController implements the CRUD actions for SysTipoDocumento model.
+ * SysFormasOrgController implements the CRUD actions for SysFormasOrg model.
  */
-class SysTipoDocumentoController extends Controller
+class SysFormasOrgController extends Controller
 {
     public function behaviors()
     {
@@ -27,12 +27,12 @@ class SysTipoDocumentoController extends Controller
     }
 
     /**
-     * Lists all SysTipoDocumento models.
+     * Lists all SysFormasOrg models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new SysTipoDocumentoSearch();
+        $searchModel = new SysFormasOrgSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -42,7 +42,7 @@ class SysTipoDocumentoController extends Controller
     }
 
     /**
-     * Displays a single SysTipoDocumento model.
+     * Displays a single SysFormasOrg model.
      * @param integer $id
      * @return mixed
      */
@@ -54,13 +54,13 @@ class SysTipoDocumentoController extends Controller
     }
 
     /**
-     * Creates a new SysTipoDocumento model.
+     * Creates a new SysFormasOrg model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new SysTipoDocumento();
+        $model = new SysFormasOrg();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -72,7 +72,7 @@ class SysTipoDocumentoController extends Controller
     }
 
     /**
-     * Updates an existing SysTipoDocumento model.
+     * Updates an existing SysFormasOrg model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -91,7 +91,7 @@ class SysTipoDocumentoController extends Controller
     }
 
     /**
-     * Deletes an existing SysTipoDocumento model.
+     * Deletes an existing SysFormasOrg model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -104,15 +104,15 @@ class SysTipoDocumentoController extends Controller
     }
 
     /**
-     * Finds the SysTipoDocumento model based on its primary key value.
+     * Finds the SysFormasOrg model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return SysTipoDocumento the loaded model
+     * @return SysFormasOrg the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = SysTipoDocumento::findOne($id)) !== null) {
+        if (($model = SysFormasOrg::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');

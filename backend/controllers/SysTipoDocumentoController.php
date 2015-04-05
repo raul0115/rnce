@@ -1,18 +1,18 @@
 <?php
 
-namespace frontend\controllers;
+namespace backend\controllers;
 
 use Yii;
-use app\models\SysClasificacionesBien;
-use app\models\SysClasificacionesBienSearch;
+use common\models\SysTipoDocumento;
+use app\models\SysTipoDocumentoSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * SysClasificacionesBienController implements the CRUD actions for SysClasificacionesBien model.
+ * SysTipoDocumentoController implements the CRUD actions for SysTipoDocumento model.
  */
-class SysClasificacionesBienController extends Controller
+class SysTipoDocumentoController extends Controller
 {
     public function behaviors()
     {
@@ -27,12 +27,12 @@ class SysClasificacionesBienController extends Controller
     }
 
     /**
-     * Lists all SysClasificacionesBien models.
+     * Lists all SysTipoDocumento models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new SysClasificacionesBienSearch();
+        $searchModel = new SysTipoDocumentoSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -42,7 +42,7 @@ class SysClasificacionesBienController extends Controller
     }
 
     /**
-     * Displays a single SysClasificacionesBien model.
+     * Displays a single SysTipoDocumento model.
      * @param integer $id
      * @return mixed
      */
@@ -54,13 +54,13 @@ class SysClasificacionesBienController extends Controller
     }
 
     /**
-     * Creates a new SysClasificacionesBien model.
+     * Creates a new SysTipoDocumento model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new SysClasificacionesBien();
+        $model = new SysTipoDocumento();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -72,7 +72,7 @@ class SysClasificacionesBienController extends Controller
     }
 
     /**
-     * Updates an existing SysClasificacionesBien model.
+     * Updates an existing SysTipoDocumento model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -91,7 +91,7 @@ class SysClasificacionesBienController extends Controller
     }
 
     /**
-     * Deletes an existing SysClasificacionesBien model.
+     * Deletes an existing SysTipoDocumento model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -104,15 +104,15 @@ class SysClasificacionesBienController extends Controller
     }
 
     /**
-     * Finds the SysClasificacionesBien model based on its primary key value.
+     * Finds the SysTipoDocumento model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return SysClasificacionesBien the loaded model
+     * @return SysTipoDocumento the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = SysClasificacionesBien::findOne($id)) !== null) {
+        if (($model = SysTipoDocumento::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');

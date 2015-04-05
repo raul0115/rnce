@@ -1,18 +1,18 @@
 <?php
 
-namespace frontend\controllers;
+namespace backend\controllers;
 
 use Yii;
-use app\models\SysPaises;
-use app\models\SysPaisesSearch;
+use common\models\SysInpc;
+use app\models\SysInpcSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * SysPaisesController implements the CRUD actions for SysPaises model.
+ * SysInpcController implements the CRUD actions for SysInpc model.
  */
-class SysPaisesController extends Controller
+class SysInpcController extends Controller
 {
     public function behaviors()
     {
@@ -27,12 +27,12 @@ class SysPaisesController extends Controller
     }
 
     /**
-     * Lists all SysPaises models.
+     * Lists all SysInpc models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new SysPaisesSearch();
+        $searchModel = new SysInpcSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -42,7 +42,7 @@ class SysPaisesController extends Controller
     }
 
     /**
-     * Displays a single SysPaises model.
+     * Displays a single SysInpc model.
      * @param integer $id
      * @return mixed
      */
@@ -54,13 +54,13 @@ class SysPaisesController extends Controller
     }
 
     /**
-     * Creates a new SysPaises model.
+     * Creates a new SysInpc model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new SysPaises();
+        $model = new SysInpc();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -72,7 +72,7 @@ class SysPaisesController extends Controller
     }
 
     /**
-     * Updates an existing SysPaises model.
+     * Updates an existing SysInpc model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -91,7 +91,7 @@ class SysPaisesController extends Controller
     }
 
     /**
-     * Deletes an existing SysPaises model.
+     * Deletes an existing SysInpc model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -104,15 +104,15 @@ class SysPaisesController extends Controller
     }
 
     /**
-     * Finds the SysPaises model based on its primary key value.
+     * Finds the SysInpc model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return SysPaises the loaded model
+     * @return SysInpc the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = SysPaises::findOne($id)) !== null) {
+        if (($model = SysInpc::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
