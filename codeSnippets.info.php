@@ -38,5 +38,88 @@ Yii::$app->formatter->locale = 'ru-RU';
 
 /**************************   WIDGETS   **************************/
 
+?>
+
+<?php // Fuentes:
+// http://snapcode.co/snap/list/category/122/yii2
+
+?>
+
+<?php 
+//Check if request is ajax request.
+
+public function actionDelete() {
+        if (Yii::$app->request->isAjax) {
+            // request is ajax request
+        }
+        else {
+            // not ajax request
+            // for example redirect
+        }
+}
+?>
+
+<?php
+//dropdown field without $form->model
+//Code for select input made from table. Dropdown not using $form->model
+use yii\helpers\ArrayHelper;
+
+ $dimensionTypes = ArrayHelper::map(DimensionType::find()->orderBy('name')->all(), 'id', 'name') ?>
+<?= Html::dropDownList('price_type_id', null, $dimensionTypes, array('label' => 'Dimension type')) ?>
+
+<?php
+	//make dropdown select from database foreign key value
+
+	//view active form
+ $priceTypes = ArrayHelper::map(\app\models\PriceType::find()->orderBy('name')->all(), 'id', 'name') ?>
+<?= $form->field($model, 'price_type_id')->dropDownList($priceTypes, ['prompt' => '---- Select price type ----'])->label('price type') ?>
+
+<?php
+//Yii2 check if record exists with where condition
+ $exists = ModelName::find()->where([ 'column_name' => $value])->andWhere(['column_name' => $value])->exists();
+//returns true or false
+?>
 
 
+<?php
+//Gettin logged user in yii2 framework
+//whole logged user
+$user = \Yii::$app->user->identity;
+
+//id of logged user
+$userId = \Yii::$app->user->identity->id
+?>
+
+
+
+<?php
+//Getting parameter from request
+//geting all parameters
+$parameters = \yii::$app->getRequest()->getQueryParams();
+?>
+
+
+
+<?php
+//find many to many relationship objects
+/*
+For example. Product can have many tags. Product tags can be found with this active record query:
+
+table structure:
+
+table: Product
+-   id
+
+table: Tag
+-   id
+-   name
+
+table:  Product_tag
+-   id
+- product_id
+- tag_id*/
+
+
+$currentTags = Tag::find()->innerJoin('product_tag', 'tag.id = product_tag.tag_id')->where(['product_id' => $model->id])->all();
+
+?>
