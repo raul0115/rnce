@@ -46,7 +46,7 @@ echo Yii::$app->formatter->asDate('2014-12-20'); // output: January 1, 2014
 echo "<br>";
 echo Yii::$app->formatter->asTime(1412599260); // 14:41:00
 echo "<br>";
-echo Yii::$app->formatter->asTime('2014-10-06 12:41:00'); // 14:41:00
+echo Yii::$app->formatter->asDateTime('2014-10-06 12:41:00'); // 14:41:00
 echo "<br>";
 echo Yii::$app->formatter->asTime('2014-10-06 14:41:00 CEST'); // 14:41:00
 echo "<br>";
