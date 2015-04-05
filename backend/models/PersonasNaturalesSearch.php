@@ -5,12 +5,12 @@ namespace app\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use common\models\SysGremios;
+use common\models\PersonasNaturales;
 
 /**
- * SysGremiosSearch represents the model behind the search form about `app\models\SysGremios`.
+ * PersonasNaturalesSearch represents the model behind the search form about `common\models\PersonasNaturales`.
  */
-class SysGremiosSearch extends SysGremios
+class PersonasNaturalesSearch extends PersonasNaturales
 {
     /**
      * @inheritdoc
@@ -18,8 +18,8 @@ class SysGremiosSearch extends SysGremios
     public function rules()
     {
         return [
-            [['id', 'persona_juridica_id'], 'integer'],
-            [['direccion', 'sys_fecha'], 'safe'],
+            [['id', 'ci', 'creado_por'], 'integer'],
+            [['nombre', 'apellido', 'rif', 'sys_fecha'], 'safe'],
             [['sys_status'], 'boolean'],
         ];
     }
@@ -42,7 +42,7 @@ class SysGremiosSearch extends SysGremios
      */
     public function search($params)
     {
-        $query = SysGremios::find();
+        $query = PersonasNaturales::find();
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
@@ -58,12 +58,15 @@ class SysGremiosSearch extends SysGremios
 
         $query->andFilterWhere([
             'id' => $this->id,
-            'persona_juridica_id' => $this->persona_juridica_id,
+            'ci' => $this->ci,
             'sys_status' => $this->sys_status,
             'sys_fecha' => $this->sys_fecha,
+            'creado_por' => $this->creado_por,
         ]);
 
-        $query->andFilterWhere(['like', 'direccion', $this->direccion]);
+        $query->andFilterWhere(['like', 'nombre', $this->nombre])
+            ->andFilterWhere(['like', 'apellido', $this->apellido])
+            ->andFilterWhere(['like', 'rif', $this->rif]);
 
         return $dataProvider;
     }
