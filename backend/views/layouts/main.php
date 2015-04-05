@@ -33,6 +33,8 @@ AppAsset::register($this);
             ]);
             $menuItems = [
                 ['label' => 'Home', 'url' => ['/site/index']],
+                ['label' => 'Persona natural', 'url' => ['/personas-naturales/create']],
+                ['label' => 'Persona juridica', 'url' => ['/personas-juridicas/create']],
                  ['label' => 'Bienes',
                     'items' => [
                          ['label' => 'Clasificaciones bienes', 'url' => ['/sys-clasificaciones-bien/create']],
