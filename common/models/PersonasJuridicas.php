@@ -16,7 +16,7 @@ use Yii;
  *
  * @property EmpresasRelacionadas[] $empresasRelacionadas
  */
-class PersonasJuridicas extends \yii\db\ActiveRecord
+class PersonasJuridicas extends \common\components\BaseActiveRecord
 {
     /**
      * @inheritdoc
@@ -48,12 +48,12 @@ class PersonasJuridicas extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
-            'rif' => 'Rif',
-            'razon_social' => 'Razon Social',
-            'sys_status' => 'Sys Status',
-            'sys_fecha' => 'Sys Fecha',
-            'creado_por' => 'Creado Por',
+            'id' => Yii::t('app', 'ID'),
+            'rif' => Yii::t('app', 'Rif'),
+            'razon_social' => Yii::t('app', 'Razon Social'),
+            'sys_status' => Yii::t('app', 'Sys Status'),
+            'sys_fecha' => Yii::t('app', 'Sys Fecha'),
+            'creado_por' => Yii::t('app', 'Creado Por'),
         ];
     }
 

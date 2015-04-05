@@ -19,7 +19,7 @@ use Yii;
  * @property Directores[] $directores
  * @property ReprLegales[] $reprLegales
  */
-class PersonasNaturales extends \yii\db\ActiveRecord
+class PersonasNaturales extends \common\components\BaseActiveRecord
 {
     /**
      * @inheritdoc
@@ -52,14 +52,14 @@ class PersonasNaturales extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
-            'nombre' => 'Nombre',
-            'apellido' => 'Apellido',
-            'rif' => 'Rif',
-            'ci' => 'Ci',
-            'sys_status' => 'Sys Status',
-            'sys_fecha' => 'Sys Fecha',
-            'creado_por' => 'Creado Por',
+            'id' => Yii::t('app', 'ID'),
+            'nombre' => Yii::t('app', 'Nombre'),
+            'apellido' => Yii::t('app', 'Apellido'),
+            'rif' => Yii::t('app', 'Rif'),
+            'ci' => Yii::t('app', 'Ci'),
+            'sys_status' => Yii::t('app', 'Sys Status'),
+            'sys_fecha' => Yii::t('app', 'Sys Fecha'),
+            'creado_por' => Yii::t('app', 'Creado Por'),
         ];
     }
 
