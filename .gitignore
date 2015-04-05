@@ -37,3 +37,4 @@ frontend/runtime/logs/app.log
 frontend/runtime/debug/index.data
 frontend/runtime/debug/index.data
 *.data
+frontend/runtime/logs/app.log

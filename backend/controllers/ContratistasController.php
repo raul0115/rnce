@@ -3,16 +3,16 @@
 namespace backend\controllers;
 
 use Yii;
-use common\models\SysClasificacionesBien;
-use app\models\SysClasificacionesBienSearch;
+use common\models\Contratistas;
+use app\models\ContratistasSearch;
 use common\components\BaseController;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * SysClasificacionesBienController implements the CRUD actions for SysClasificacionesBien model.
+ * ContratistasController implements the CRUD actions for Contratistas model.
  */
-class SysClasificacionesBienController extends BaseController
+class ContratistasController extends BaseController
 {
     public function behaviors()
     {
@@ -27,12 +27,12 @@ class SysClasificacionesBienController extends BaseController
     }
 
     /**
-     * Lists all SysClasificacionesBien models.
+     * Lists all Contratistas models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new SysClasificacionesBienSearch();
+        $searchModel = new ContratistasSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -42,7 +42,7 @@ class SysClasificacionesBienController extends BaseController
     }
 
     /**
-     * Displays a single SysClasificacionesBien model.
+     * Displays a single Contratistas model.
      * @param integer $id
      * @return mixed
      */
@@ -54,13 +54,13 @@ class SysClasificacionesBienController extends BaseController
     }
 
     /**
-     * Creates a new SysClasificacionesBien model.
+     * Creates a new Contratistas model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new SysClasificacionesBien();
+        $model = new Contratistas();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -72,7 +72,7 @@ class SysClasificacionesBienController extends BaseController
     }
 
     /**
-     * Updates an existing SysClasificacionesBien model.
+     * Updates an existing Contratistas model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -91,7 +91,7 @@ class SysClasificacionesBienController extends BaseController
     }
 
     /**
-     * Deletes an existing SysClasificacionesBien model.
+     * Deletes an existing Contratistas model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -104,15 +104,15 @@ class SysClasificacionesBienController extends BaseController
     }
 
     /**
-     * Finds the SysClasificacionesBien model based on its primary key value.
+     * Finds the Contratistas model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return SysClasificacionesBien the loaded model
+     * @return Contratistas the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = SysClasificacionesBien::findOne($id)) !== null) {
+        if (($model = Contratistas::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
