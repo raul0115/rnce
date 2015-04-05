@@ -19,6 +19,9 @@ Thumbs.db
 /vendor
 /frontend_old
 
+#
+/runtime
+
 # composer itself is not needed
 composer.phar
 

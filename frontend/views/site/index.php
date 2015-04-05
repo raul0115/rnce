@@ -8,7 +8,9 @@ use yii\widgets\Menu;
 ?>
 <div class="site-index">
     <?php 
+
 /*        NavBar::begin(['brandLabel' => '']);
+
         echo Nav::widget([
             'items' => [
                 ['label' => 'Efectivo Caja', 'url' => ['/efectivo-caja/index']],
@@ -27,6 +29,7 @@ use yii\widgets\Menu;
             ],
         ]);
         NavBar::end();
+
 */
 
 echo Yii::$app->formatter->asPercent(0.125, 2); // output: 12.50%
@@ -59,6 +62,7 @@ echo Yii::$app->formatter->asDate('2014-01-01'); // output: 1. Januar 2014
 echo "<br>";
 Yii::$app->formatter->locale = 'ru-RU';
 echo Yii::$app->formatter->asDate('2014-01-01'); // output: 1 января 2014 г.*/
+
     ?>
 
     <!-- <div class="jumbotron">

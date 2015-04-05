@@ -2629,3 +2629,677 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1428196778.153
     'REQUEST_TIME' => 1428196778
 ]
+2015-04-04 21:19:11 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/index', Array)
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-04 21:19:11 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => 'fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub\",2592000]\";}'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '194fpmrp6vi9hjtlbmuuh7fpc6'
+    '_csrf' => 'afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"90JDB7ZZU8QabEf2PKkbjt9HxBoysSXG\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub%22%2C2592000%5D%22%3B%7D; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=194fpmrp6vi9hjtlbmuuh7fpc6; _csrf=afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2290JDB7ZZU8QabEf2PKkbjt9HxBoysSXG%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '63978'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428198551.406
+    'REQUEST_TIME' => 1428198551
+]
+2015-04-04 21:20:18 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/index', Array)
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-04 21:20:18 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => 'fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub\",2592000]\";}'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '194fpmrp6vi9hjtlbmuuh7fpc6'
+    '_csrf' => 'afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"90JDB7ZZU8QabEf2PKkbjt9HxBoysSXG\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub%22%2C2592000%5D%22%3B%7D; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=194fpmrp6vi9hjtlbmuuh7fpc6; _csrf=afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2290JDB7ZZU8QabEf2PKkbjt9HxBoysSXG%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '63979'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428198618.923
+    'REQUEST_TIME' => 1428198618
+]
+2015-04-04 21:20:21 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/index', Array)
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-04 21:20:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => 'fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub\",2592000]\";}'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '194fpmrp6vi9hjtlbmuuh7fpc6'
+    '_csrf' => 'afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"90JDB7ZZU8QabEf2PKkbjt9HxBoysSXG\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub%22%2C2592000%5D%22%3B%7D; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=194fpmrp6vi9hjtlbmuuh7fpc6; _csrf=afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2290JDB7ZZU8QabEf2PKkbjt9HxBoysSXG%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '63979'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428198621.824
+    'REQUEST_TIME' => 1428198621
+]
+2015-04-04 21:20:23 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/index', Array)
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-04 21:20:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => 'fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub\",2592000]\";}'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '194fpmrp6vi9hjtlbmuuh7fpc6'
+    '_csrf' => 'afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"90JDB7ZZU8QabEf2PKkbjt9HxBoysSXG\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub%22%2C2592000%5D%22%3B%7D; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=194fpmrp6vi9hjtlbmuuh7fpc6; _csrf=afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2290JDB7ZZU8QabEf2PKkbjt9HxBoysSXG%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '63979'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428198623.042
+    'REQUEST_TIME' => 1428198623
+]
+2015-04-04 21:20:23 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/index', Array)
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-04 21:20:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => 'fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub\",2592000]\";}'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '194fpmrp6vi9hjtlbmuuh7fpc6'
+    '_csrf' => 'afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"90JDB7ZZU8QabEf2PKkbjt9HxBoysSXG\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub%22%2C2592000%5D%22%3B%7D; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=194fpmrp6vi9hjtlbmuuh7fpc6; _csrf=afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2290JDB7ZZU8QabEf2PKkbjt9HxBoysSXG%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '63979'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428198623.71
+    'REQUEST_TIME' => 1428198623
+]
+2015-04-04 21:20:24 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/index', Array)
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-04 21:20:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => 'fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub\",2592000]\";}'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '194fpmrp6vi9hjtlbmuuh7fpc6'
+    '_csrf' => 'afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"90JDB7ZZU8QabEf2PKkbjt9HxBoysSXG\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub%22%2C2592000%5D%22%3B%7D; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=194fpmrp6vi9hjtlbmuuh7fpc6; _csrf=afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2290JDB7ZZU8QabEf2PKkbjt9HxBoysSXG%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '63979'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428198624.315
+    'REQUEST_TIME' => 1428198624
+]
+2015-04-04 21:20:24 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/index', Array)
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-04 21:20:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => 'fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub\",2592000]\";}'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '194fpmrp6vi9hjtlbmuuh7fpc6'
+    '_csrf' => 'afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"90JDB7ZZU8QabEf2PKkbjt9HxBoysSXG\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub%22%2C2592000%5D%22%3B%7D; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=194fpmrp6vi9hjtlbmuuh7fpc6; _csrf=afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2290JDB7ZZU8QabEf2PKkbjt9HxBoysSXG%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '63979'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428198624.938
+    'REQUEST_TIME' => 1428198624
+]
+2015-04-04 21:20:25 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/index', Array)
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-04 21:20:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => 'fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub\",2592000]\";}'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '194fpmrp6vi9hjtlbmuuh7fpc6'
+    '_csrf' => 'afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"90JDB7ZZU8QabEf2PKkbjt9HxBoysSXG\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub%22%2C2592000%5D%22%3B%7D; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=194fpmrp6vi9hjtlbmuuh7fpc6; _csrf=afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2290JDB7ZZU8QabEf2PKkbjt9HxBoysSXG%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '63979'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428198625.489
+    'REQUEST_TIME' => 1428198625
+]
+2015-04-04 21:20:26 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/index', Array)
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-04 21:20:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => 'fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub\",2592000]\";}'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '194fpmrp6vi9hjtlbmuuh7fpc6'
+    '_csrf' => 'afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"90JDB7ZZU8QabEf2PKkbjt9HxBoysSXG\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub%22%2C2592000%5D%22%3B%7D; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=194fpmrp6vi9hjtlbmuuh7fpc6; _csrf=afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2290JDB7ZZU8QabEf2PKkbjt9HxBoysSXG%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '63979'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428198625.999
+    'REQUEST_TIME' => 1428198625
+]
+2015-04-04 21:20:26 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/index', Array)
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-04 21:20:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => 'fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub\",2592000]\";}'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '194fpmrp6vi9hjtlbmuuh7fpc6'
+    '_csrf' => 'afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"90JDB7ZZU8QabEf2PKkbjt9HxBoysSXG\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub%22%2C2592000%5D%22%3B%7D; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=194fpmrp6vi9hjtlbmuuh7fpc6; _csrf=afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2290JDB7ZZU8QabEf2PKkbjt9HxBoysSXG%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '63979'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428198626.556
+    'REQUEST_TIME' => 1428198626
+]
+2015-04-04 21:24:05 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\Apache24\htdocs\rnce\frontend\views\layouts\main.php' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\View->renderFile('C:\\Apache24\\htd...', Array, Object(frontend\controllers\SiteController))
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(368): yii\base\Controller->renderContent('<div class="sit...')
+#2 C:\Apache24\htdocs\rnce\frontend\controllers\SiteController.php(70): yii\base\Controller->render('index')
+#3 [internal function]: frontend\controllers\SiteController->actionIndex()
+#4 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/index', Array)
+#8 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-04 21:24:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => 'fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub\",2592000]\";}'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '194fpmrp6vi9hjtlbmuuh7fpc6'
+    '_csrf' => 'afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"90JDB7ZZU8QabEf2PKkbjt9HxBoysSXG\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=fe1358c8128a897635b97eeb988452113a03d59af6ff6bebaa662f1493a57cafa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22xAPxfs5I6uBR8IeRJGR0knz4cCNG1Dub%22%2C2592000%5D%22%3B%7D; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=194fpmrp6vi9hjtlbmuuh7fpc6; _csrf=afac04c4490e2f60b72d0e39fa6a780fc3d99886d6257315a1e51db7bba9431aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2290JDB7ZZU8QabEf2PKkbjt9HxBoysSXG%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '63993'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428198845.673
+    'REQUEST_TIME' => 1428198845
+]
