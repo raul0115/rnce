@@ -4,8 +4,8 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\jui\DatePicker;
 use yii\helpers\ArrayHelper;
-use app\models\SysFormasOrg;
-use app\models\SysTiposBienes;
+use common\models\SysFormasOrg;
+use common\models\SysTiposBienes;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Bienes */
