@@ -11109,3 +11109,1776 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1428265922.175
     'REQUEST_TIME' => 1428265922
 ]
+2015-04-05 16:10:08 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:09 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php?'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54152'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266408.91
+    'REQUEST_TIME' => 1428266408
+]
+2015-04-05 16:10:34 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:34 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54175'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266434.189
+    'REQUEST_TIME' => 1428266434
+]
+2015-04-05 16:10:35 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:36 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:35 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54175'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266435.869
+    'REQUEST_TIME' => 1428266435
+]
+2015-04-05 16:10:53 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:53 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54191'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266453.382
+    'REQUEST_TIME' => 1428266453
+]
+2015-04-05 16:10:54 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:54 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54191'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266454.546
+    'REQUEST_TIME' => 1428266454
+]
+2015-04-05 16:10:56 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:56 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54199'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266456.642
+    'REQUEST_TIME' => 1428266456
+]
+2015-04-05 16:10:56 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:57 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54202'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266456.853
+    'REQUEST_TIME' => 1428266456
+]
+2015-04-05 16:10:57 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:57 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54206'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266457.029
+    'REQUEST_TIME' => 1428266457
+]
+2015-04-05 16:10:57 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:57 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54209'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266457.207
+    'REQUEST_TIME' => 1428266457
+]
+2015-04-05 16:10:57 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:57 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54213'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266457.346
+    'REQUEST_TIME' => 1428266457
+]
+2015-04-05 16:10:57 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:57 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54217'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266457.499
+    'REQUEST_TIME' => 1428266457
+]
+2015-04-05 16:10:57 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:57 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54221'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266457.638
+    'REQUEST_TIME' => 1428266457
+]
+2015-04-05 16:10:57 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:58 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54226'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266457.808
+    'REQUEST_TIME' => 1428266457
+]
+2015-04-05 16:10:58 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:58 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54231'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266457.952
+    'REQUEST_TIME' => 1428266457
+]
+2015-04-05 16:10:58 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:58 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54234'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266458.031
+    'REQUEST_TIME' => 1428266458
+]
+2015-04-05 16:10:58 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:58 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54241'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266458.249
+    'REQUEST_TIME' => 1428266458
+]
+2015-04-05 16:10:58 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:58 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54247'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266458.418
+    'REQUEST_TIME' => 1428266458
+]
+2015-04-05 16:10:58 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:58 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54251'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266458.548
+    'REQUEST_TIME' => 1428266458
+]
+2015-04-05 16:10:58 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:58 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54258'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266458.718
+    'REQUEST_TIME' => 1428266458
+]
+2015-04-05 16:10:58 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:10:59 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:10:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54265'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266458.893
+    'REQUEST_TIME' => 1428266458
+]
+2015-04-05 16:11:20 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:11:20 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:11:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54334'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266480.536
+    'REQUEST_TIME' => 1428266480
+]
+2015-04-05 16:11:31 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:11:31 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:11:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54346'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266491.492
+    'REQUEST_TIME' => 1428266491
+]
+2015-04-05 16:12:46 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:12:46 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:12:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54404'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266566.536
+    'REQUEST_TIME' => 1428266566
+]
+2015-04-05 16:12:49 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:12:49 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:12:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54404'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266568.892
+    'REQUEST_TIME' => 1428266568
+]
+2015-04-05 16:12:51 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:12:51 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:12:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54411'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266570.981
+    'REQUEST_TIME' => 1428266570
+]
+2015-04-05 16:12:51 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:12:51 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:12:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54413'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266571.125
+    'REQUEST_TIME' => 1428266571
+]
+2015-04-05 16:12:51 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:12:51 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:12:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54414'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266571.277
+    'REQUEST_TIME' => 1428266571
+]
+2015-04-05 16:12:51 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:12:51 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:12:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54418'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266571.477
+    'REQUEST_TIME' => 1428266571
+]
+2015-04-05 16:12:51 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:12:51 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:12:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54419'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266571.576
+    'REQUEST_TIME' => 1428266571
+]
+2015-04-05 16:12:51 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:12:52 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:12:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54420'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266571.694
+    'REQUEST_TIME' => 1428266571
+]
+2015-04-05 16:12:52 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:12:52 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:12:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54424'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266571.847
+    'REQUEST_TIME' => 1428266571
+]
+2015-04-05 16:13:31 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es-VE/app.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend/messages/es/app.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\views\bienes\create.php:9
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\frontend\controllers\BienesController.php:70
+2015-04-05 16:13:31 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-05 16:13:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uvnong48slk40t1ate2rgquc82'
+    '_csrf' => '4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/index.php?r=site%2Findex'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uvnong48slk40t1ate2rgquc82; _csrf=4327bfdbb8e2010b1add265271066dcc6e613e659bb992e27ea1fc6417c8270ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223EkQ2XmeH9IVkw-NESAQOkVnwoJPXt7m%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.1\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\PostgreSQL\\9.3\\bin;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\DLLShared\\;C:\\Program Files (x86)\\Common Files\\Roxio Shared\\13.0\\DLLShared\\;C:\\dev\\php;C:\\Program Files\\Java\\jdk1.6.0_45\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Win32) PHP/5.4.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs'
+    'SERVER_ADMIN' => 'admin@ciens.ucv.ve'
+    'SCRIPT_FILENAME' => 'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '54468'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428266611.344
+    'REQUEST_TIME' => 1428266611
+]

@@ -4,11 +4,11 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\SysClasificacionesBienSearch */
+/* @var $model app\models\ContratistasSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
-<div class="sys-clasificaciones-bien-search">
+<div class="contratistas-search">
 
     <?php $form = ActiveForm::begin([
         'action' => ['index'],
@@ -17,13 +17,9 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'id') ?>
 
-    <?= $form->field($model, 'nombre') ?>
+    <?= $form->field($model, 'natural_juridica_id') ?>
 
-    <?= $form->field($model, 'descripcion') ?>
-
-    <?= $form->field($model, 'sys_status')->checkbox() ?>
-
-    <?= $form->field($model, 'sys_fecha') ?>
+    <?= $form->field($model, 'estatus_contratista_id') ?>
 
     <div class="form-group">
         <?= Html::submitButton(Yii::t('app', 'Search'), ['class' => 'btn btn-primary']) ?>

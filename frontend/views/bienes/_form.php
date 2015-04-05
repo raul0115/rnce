@@ -17,7 +17,7 @@ use common\models\SysTiposBienes;
 
     <?php $form = ActiveForm::begin(); 
             $principioContable = ArrayHelper::map(SysFormasOrg::find()->all(), 'id', 'nombre');
-        $tipoBien = ArrayHelper::map(SysTiposBienes::find()->all(), 'id', 'nombre');
+            $tipoBien = ArrayHelper::map(SysTiposBienes::find()->all(), 'id', 'nombre');
         ?>
 
 
@@ -41,7 +41,13 @@ use common\models\SysTiposBienes;
         'language' => 'es',
         'dateFormat' => 'dd-MM-yyyy',
     ]) */?> 
-     <?= $form->field($model, 'fecha_origen')->widget(DateTimePicker::classname(), [
+     
+
+    
+
+    <?= $form->field($model, 'origen')->textArea(['maxlength' => 255]) ?>
+
+    <?= $form->field($model, 'fecha_origen')->widget(DateTimePicker::classname(), [
 /*        'language' => 'es',
         'dateFormat' => 'dd-MM-yyyy',*/
                 'options' => ['placeholder' => 'Seleccionar fecha origen'],
@@ -53,13 +59,10 @@ use common\models\SysTiposBienes;
                 ]
     ]) ?>
 
-    <?= $form->field($model, 'detalle')->textInput(['maxlength' => 255]) ?>
 
-    <?= $form->field($model, 'origen')->textInput(['maxlength' => 255]) ?>
+    <?= $form->field($model, 'detalle')->textArea(['maxlength' => 255]) ?>
 
-    <?= $form->field($model, 'fecha_origen')->textInput() ?>
-
-    <?= $form->field($model, 'contratista_id')->textInput() ?>
+    <?php //$form->field($model, 'contratista_id')->textInput() ?>
 
     <?= $form->field($model, 'propio')->checkbox() ?>
 

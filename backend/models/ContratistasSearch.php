@@ -5,12 +5,12 @@ namespace app\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use common\models\SysClasificacionesBien;
+use common\models\Contratistas;
 
 /**
- * SysClasificacionesBienSearch represents the model behind the search form about `common\models\SysClasificacionesBien`.
+ * ContratistasSearch represents the model behind the search form about `common\models\Contratistas`.
  */
-class SysClasificacionesBienSearch extends SysClasificacionesBien
+class ContratistasSearch extends Contratistas
 {
     /**
      * @inheritdoc
@@ -18,9 +18,7 @@ class SysClasificacionesBienSearch extends SysClasificacionesBien
     public function rules()
     {
         return [
-            [['id'], 'integer'],
-            [['nombre', 'descripcion', 'sys_fecha'], 'safe'],
-            [['sys_status'], 'boolean'],
+            [['id', 'natural_juridica_id', 'estatus_contratista_id'], 'integer'],
         ];
     }
 
@@ -42,7 +40,7 @@ class SysClasificacionesBienSearch extends SysClasificacionesBien
      */
     public function search($params)
     {
-        $query = SysClasificacionesBien::find();
+        $query = Contratistas::find();
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
@@ -58,12 +56,9 @@ class SysClasificacionesBienSearch extends SysClasificacionesBien
 
         $query->andFilterWhere([
             'id' => $this->id,
-            'sys_status' => $this->sys_status,
-            'sys_fecha' => $this->sys_fecha,
+            'natural_juridica_id' => $this->natural_juridica_id,
+            'estatus_contratista_id' => $this->estatus_contratista_id,
         ]);
-
-        $query->andFilterWhere(['like', 'nombre', $this->nombre])
-            ->andFilterWhere(['like', 'descripcion', $this->descripcion]);
 
         return $dataProvider;
     }

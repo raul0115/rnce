@@ -15,7 +15,7 @@ use Yii;
  *
  * @property SysTiposBienes[] $sysTiposBienes
  */
-class SysClasificacionesBien extends \yii\db\ActiveRecord
+class SysClasificacionesBien extends \common\components\BaseActiveRecord
 {
     /**
      * @inheritdoc
@@ -44,11 +44,11 @@ class SysClasificacionesBien extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
-            'nombre' => 'Nombre',
-            'descripcion' => 'Descripcion',
-            'sys_status' => 'Sys Status',
-            'sys_fecha' => 'Sys Fecha',
+            'id' => Yii::t('app', 'ID'),
+            'nombre' => Yii::t('app', 'Nombre'),
+            'descripcion' => Yii::t('app', 'Descripcion'),
+            'sys_status' => Yii::t('app', 'Sys Status'),
+            'sys_fecha' => Yii::t('app', 'Sys Fecha'),
         ];
     }
 

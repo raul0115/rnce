@@ -4,10 +4,10 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model app\models\SysClasificacionesBien */
+/* @var $model common\models\SysClasificacionesBien */
 
-$this->title = 'Create Sys Clasificaciones Bien';
-$this->params['breadcrumbs'][] = ['label' => 'Sys Clasificaciones Biens', 'url' => ['index']];
+$this->title = Yii::t('app', 'Create Sys Clasificaciones Bien');
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Sys Clasificaciones Biens'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="sys-clasificaciones-bien-create">
