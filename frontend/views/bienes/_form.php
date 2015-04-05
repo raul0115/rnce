@@ -3,6 +3,7 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\jui\DatePicker;
+use yii\helpers\ArrayHelper;
 use app\models\SysFormasOrg;
 
 /* @var $this yii\web\View */
@@ -12,7 +13,9 @@ use app\models\SysFormasOrg;
 
 <div class="bienes-form">
 
-    <?php $form = ActiveForm::begin(); ?>
+    <?php $form = ActiveForm::begin(); 
+        $tipoBien = ArrayHelper::map(SysFormasOrg::find()->all(), 'id', 'nombre');
+    ?>
 
     <?php
         $itemsA = array('2010' => 2010, '2011' => 2011, '2012' => 2012, '2013' => 2013, '2014' => 2014, '2015' => 2015);
@@ -20,13 +23,13 @@ use app\models\SysFormasOrg;
     <!--<?= $form->field($model, 'sys_tipo_bien_id')->textInput() ?>-->
 
     <?= $form->field($model, 'sys_tipo_bien_id')->dropDownList(
-            $itemsA,
+            $tipoBien,
             ['prompt'=>'Seleccione tipo de bien']
         );
     ?>
 
     <?php
-        print_r(SysFormasOrg::find()->all());//[0]['nombre']);
+        //print_r(SysFormasOrg::find()->all());//[0]['nombre']);
     ?>
 
     <?= $form->field($model, 'principio_contable')->textInput() ?>
@@ -40,8 +43,8 @@ use app\models\SysFormasOrg;
     <?= $form->field($model, 'origen')->textInput(['maxlength' => 255]) ?>
 
     <?= $form->field($model, 'fecha_origen')->widget(\yii\jui\DatePicker::classname(), [
-    'language' => 'es',
-    'dateFormat' => 'dd-MM-yyyy',
+        'language' => 'es',
+        'dateFormat' => 'dd-MM-yyyy',
     ])
 
        /* DatePicker::widget([

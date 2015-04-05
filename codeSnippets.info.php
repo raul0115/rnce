@@ -34,7 +34,12 @@ echo Yii::$app->formatter->asDate('2014-01-01'); // output: 1. Januar 2014
 echo "<br>";
 Yii::$app->formatter->locale = 'ru-RU';
 
+/**************************  TIPS A TOMAR EN CUENTA  **************************/
 
+Para hacer una busqueda en todos los elementos usar: CLASSNAME::FIND()->ALL(), EJ --> SysFormasOrg::find()->all()
+
+
+/************************** SNIPPETS *******************************/
 
 /**************************   WIDGETS   **************************/
 
