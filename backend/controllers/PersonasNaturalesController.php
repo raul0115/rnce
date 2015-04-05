@@ -5,14 +5,14 @@ namespace backend\controllers;
 use Yii;
 use common\models\PersonasNaturales;
 use app\models\PersonasNaturalesSearch;
-use yii\web\Controller;
+use common\components\BaseController;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
  * PersonasNaturalesController implements the CRUD actions for PersonasNaturales model.
  */
-class PersonasNaturalesController extends Controller
+class PersonasNaturalesController extends BaseController
 {
     public function behaviors()
     {

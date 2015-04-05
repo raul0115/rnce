@@ -6,8 +6,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model common\models\PersonasNaturales */
 
-$this->title = 'Create Personas Naturales';
-$this->params['breadcrumbs'][] = ['label' => 'Personas Naturales', 'url' => ['index']];
+$this->title = Yii::t('app', 'Create Personas Naturales');
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Personas Naturales'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="personas-naturales-create">
