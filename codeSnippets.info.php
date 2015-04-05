@@ -166,11 +166,9 @@ $form->field($model, 'sys_tipo_bien_id')->dropDownList(
         );
 
 
-<!--link http://www.bsourcecode.com/yiiframework2/yii2-0-activeform-input-fields/-->
+//<!--link http://www.bsourcecode.com/yiiframework2/yii2-0-activeform-input-fields/-->
 /*******************************END FORM ELEMENT*********************************/
 
-
-/**************************   WIDGETS   **************************/
 
 
 /**************************   MANEJO DE BASE DE DATOS   **************************/
@@ -193,6 +191,56 @@ $form->field($model, 'sys_tipo_bien_id')->dropDownList(
                 } catch (Exception $e) {
                     $transaction->rollBack();
                 }
+
+
+/**************************   WIDGETS/EXTENSIONES   **************************/
+
+    // Fuentes:
+    //http://demos.krajee.com/
+
+        //** WIDGET SELECT 2 **//
+        use kartik\select2\Select2;
+
+        // setup the following to get the existing data from database
+        $model->color = 'red, black, cyan';
+         
+        // or if the data is an array you can preselect the tags like this
+        $model->color = implode(', ', ["red", "black", "cyan"]);
+         
+        echo Select2::widget([
+            'model' => $model,
+            'attribute' => 'color',
+            'options' => ['placeholder' => 'Select a color ...'],
+            'pluginOptions' => [
+                'tags' => ["red", "green", "white", "black", "purple", "cyan"],
+                'maximumInputLength' => 10
+            ],
+        ]);
+
+         $form->field($model, 'cliente_id')->widget(Select2::classname(), [
+                'data' => $clientes,
+                'options' => ['placeholder' => 'Seleccionar cliente'],
+                'pluginOptions' => [
+                    'allowClear' => true
+                ],
+            ])
+
+
+        //** WIDGET DATETIMEPICKER **//
+        use kartik\datetime\DateTimePicker;
+            echo '<label>Fecha Factura</label>';
+            echo DateTimePicker::widget([
+                'model' => $model,
+                'attribute' => 'fecha',
+                //'name' => 'datetime_10',
+                'options' => ['placeholder' => 'Selecciona fecha ...'],
+                'convertFormat' => true,
+                'pluginOptions' => [
+                    'format' => 'd-M-yyyy h:i P',
+                    'startDate' => date('d-m-Y h:i A'),//'01-Mar-2014 12:00 AM',
+                    'todayHighlight' => true
+                ]
+            ]);
 
 ?>
 
