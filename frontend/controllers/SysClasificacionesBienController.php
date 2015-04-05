@@ -3,17 +3,16 @@
 namespace frontend\controllers;
 
 use Yii;
-use app\models\Bienes;
-use app\models\BienesSearch;
+use app\models\SysClasificacionesBien;
+use app\models\SysClasificacionesBienSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * BienesController implements the CRUD actions for Bienes model.
+ * SysClasificacionesBienController implements the CRUD actions for SysClasificacionesBien model.
  */
-
-class BienesController extends Controller
+class SysClasificacionesBienController extends Controller
 {
     public function behaviors()
     {
@@ -28,12 +27,12 @@ class BienesController extends Controller
     }
 
     /**
-     * Lists all Bienes models.
+     * Lists all SysClasificacionesBien models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new BienesSearch();
+        $searchModel = new SysClasificacionesBienSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -43,7 +42,7 @@ class BienesController extends Controller
     }
 
     /**
-     * Displays a single Bienes model.
+     * Displays a single SysClasificacionesBien model.
      * @param integer $id
      * @return mixed
      */
@@ -55,13 +54,13 @@ class BienesController extends Controller
     }
 
     /**
-     * Creates a new Bienes model.
+     * Creates a new SysClasificacionesBien model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new Bienes();
+        $model = new SysClasificacionesBien();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -73,7 +72,7 @@ class BienesController extends Controller
     }
 
     /**
-     * Updates an existing Bienes model.
+     * Updates an existing SysClasificacionesBien model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -92,7 +91,7 @@ class BienesController extends Controller
     }
 
     /**
-     * Deletes an existing Bienes model.
+     * Deletes an existing SysClasificacionesBien model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -105,15 +104,15 @@ class BienesController extends Controller
     }
 
     /**
-     * Finds the Bienes model based on its primary key value.
+     * Finds the SysClasificacionesBien model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return Bienes the loaded model
+     * @return SysClasificacionesBien the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Bienes::findOne($id)) !== null) {
+        if (($model = SysClasificacionesBien::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');

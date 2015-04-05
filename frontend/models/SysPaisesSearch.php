@@ -5,12 +5,12 @@ namespace app\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\Bienes;
+use app\models\SysPaises;
 
 /**
- * BienesSearch represents the model behind the search form about `app\models\Bienes`.
+ * SysPaisesSearch represents the model behind the search form about `app\models\SysPaises`.
  */
-class BienesSearch extends Bienes
+class SysPaisesSearch extends SysPaises
 {
     /**
      * @inheritdoc
@@ -18,9 +18,9 @@ class BienesSearch extends Bienes
     public function rules()
     {
         return [
-            [['id', 'sys_tipo_bien_id', 'principio_contable', 'contratista_id'], 'integer'],
-            [['depreciable', 'deterioro', 'propio'], 'boolean'],
-            [['detalle', 'origen', 'fecha_origen'], 'safe'],
+            [['id'], 'integer'],
+            [['nombre', 'sys_fecha'], 'safe'],
+            [['sys_status'], 'boolean'],
         ];
     }
 
@@ -42,7 +42,7 @@ class BienesSearch extends Bienes
      */
     public function search($params)
     {
-        $query = Bienes::find();
+        $query = SysPaises::find();
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
@@ -58,17 +58,11 @@ class BienesSearch extends Bienes
 
         $query->andFilterWhere([
             'id' => $this->id,
-            'sys_tipo_bien_id' => $this->sys_tipo_bien_id,
-            'principio_contable' => $this->principio_contable,
-            'depreciable' => $this->depreciable,
-            'deterioro' => $this->deterioro,
-            'fecha_origen' => $this->fecha_origen,
-            'contratista_id' => $this->contratista_id,
-            'propio' => $this->propio,
+            'sys_status' => $this->sys_status,
+            'sys_fecha' => $this->sys_fecha,
         ]);
 
-        $query->andFilterWhere(['like', 'detalle', $this->detalle])
-            ->andFilterWhere(['like', 'origen', $this->origen]);
+        $query->andFilterWhere(['like', 'nombre', $this->nombre]);
 
         return $dataProvider;
     }

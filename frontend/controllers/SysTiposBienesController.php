@@ -3,17 +3,16 @@
 namespace frontend\controllers;
 
 use Yii;
-use app\models\Bienes;
-use app\models\BienesSearch;
+use app\models\SysTiposBienes;
+use app\models\SysTiposBienesSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * BienesController implements the CRUD actions for Bienes model.
+ * SysTiposBienesController implements the CRUD actions for SysTiposBienes model.
  */
-
-class BienesController extends Controller
+class SysTiposBienesController extends Controller
 {
     public function behaviors()
     {
@@ -28,12 +27,12 @@ class BienesController extends Controller
     }
 
     /**
-     * Lists all Bienes models.
+     * Lists all SysTiposBienes models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new BienesSearch();
+        $searchModel = new SysTiposBienesSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -43,7 +42,7 @@ class BienesController extends Controller
     }
 
     /**
-     * Displays a single Bienes model.
+     * Displays a single SysTiposBienes model.
      * @param integer $id
      * @return mixed
      */
@@ -55,13 +54,13 @@ class BienesController extends Controller
     }
 
     /**
-     * Creates a new Bienes model.
+     * Creates a new SysTiposBienes model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new Bienes();
+        $model = new SysTiposBienes();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -73,7 +72,7 @@ class BienesController extends Controller
     }
 
     /**
-     * Updates an existing Bienes model.
+     * Updates an existing SysTiposBienes model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -92,7 +91,7 @@ class BienesController extends Controller
     }
 
     /**
-     * Deletes an existing Bienes model.
+     * Deletes an existing SysTiposBienes model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -105,15 +104,15 @@ class BienesController extends Controller
     }
 
     /**
-     * Finds the Bienes model based on its primary key value.
+     * Finds the SysTiposBienes model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return Bienes the loaded model
+     * @return SysTiposBienes the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Bienes::findOne($id)) !== null) {
+        if (($model = SysTiposBienes::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
