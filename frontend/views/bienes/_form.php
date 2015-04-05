@@ -21,6 +21,7 @@ use common\models\SysTiposBienes;
         ?>
 
 
+
     <?= $form->field($model, 'sys_tipo_bien_id')->dropDownList(
             $tipoBien,
             ['prompt'=>'Seleccione tipo de bien']
