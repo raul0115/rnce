@@ -8,7 +8,7 @@ use app\models\BienesSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use frontend\controllers\BaseController;
+use common\components\BaseController;
 
 /**
  * BienesController implements the CRUD actions for Bienes model.
