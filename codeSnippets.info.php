@@ -39,9 +39,31 @@ Yii::$app->formatter->locale = 'ru-RU';
 Para hacer una busqueda en todos los elementos usar: CLASSNAME::FIND()->ALL(), EJ --> SysFormasOrg::find()->all()
 
 
-/************************** SNIPPETS *******************************/
+/**************************   SNIPPETS *******************************/
 
 /**************************   WIDGETS   **************************/
+
+
+/**************************   MANEJO DE BASE DE DATOS   **************************/
+
+                $transaction = \Yii::$app->db->beginTransaction();
+                try {
+                    if ($flag = $modelCustomer->save(false)) {
+                        foreach ($modelsAddress as $modelAddress) {
+                            $modelAddress->customer_id = $modelCustomer->id;
+                            if (! ($flag = $modelAddress->save(false))) {
+                                $transaction->rollBack();
+                                break;
+                            }
+                        }
+                    }
+                    if ($flag) {
+                        $transaction->commit();
+                        return $this->redirect(['view', 'id' => $modelCustomer->id]);
+                    }
+                } catch (Exception $e) {
+                    $transaction->rollBack();
+                }
 
 ?>
 
