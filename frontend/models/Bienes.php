@@ -50,7 +50,7 @@ class Bienes extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['sys_tipo_bien_id', 'principio_contable', 'origen', 'fecha_origen', 'contratista_id'], 'required'],
+            [['sys_tipo_bien_id', 'principio_contable', 'origen', 'fecha_origen'], 'required'],
             [['sys_tipo_bien_id', 'principio_contable', 'contratista_id'], 'integer'],
             [['depreciable', 'deterioro', 'propio'], 'boolean'],
             [['fecha_origen'], 'safe'],
@@ -65,7 +65,7 @@ class Bienes extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'sys_tipo_bien_id' => 'Sys Tipo Bien ID',
+            'sys_tipo_bien_id' => 'Tipo Bien',
             'principio_contable' => 'Principio Contable',
             'depreciable' => 'Depreciable',
             'deterioro' => 'Deterioro',
