@@ -4,10 +4,10 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model app\models\SysFormasOrg */
+/* @var $model common\models\SysFormasOrg */
 
-$this->title = 'Create Sys Formas Org';
-$this->params['breadcrumbs'][] = ['label' => 'Sys Formas Orgs', 'url' => ['index']];
+$this->title = Yii::t('app', 'Create Sys Formas Org');
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Sys Formas Orgs'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="sys-formas-org-create">

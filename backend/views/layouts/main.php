@@ -32,12 +32,14 @@ AppAsset::register($this);
                 ],
             ]);
             $menuItems = [
-                ['label' => 'Home', 'url' => ['/site/index']],
+                //['label' => 'Home', 'url' => ['/site/index']],
                 ['label' => 'Persona natural', 'url' => ['/personas-naturales/create']],
                 ['label' => 'Persona juridica', 'url' => ['/personas-juridicas/create']],
+                ['label' => 'Inpc', 'url' => ['/sys-inpc/create']],
+                ['label' => 'Gremios', 'url' => ['/sys-gremios/create']],
                  ['label' => 'Bienes',
                     'items' => [
-                         ['label' => 'Clasificaciones bienes', 'url' => ['/sys-clasificaciones-bien/create']],
+                         ['label' => 'Clasificaciones bienes', 'url' => ['/sys-clasificaciones-bienes/create']],
                          ['label' => 'Tipos bienes', 'url' => ['/sys-tipos-bienes/create']],
                          ['label' => 'Aqui van los otros', 'url' => ['#']],
                     ],

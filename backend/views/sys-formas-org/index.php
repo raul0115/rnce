@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\SysFormasOrgSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Sys Formas Orgs';
+$this->title = Yii::t('app', 'Sys Formas Orgs');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="sys-formas-org-index">
@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Sys Formas Org', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a(Yii::t('app', 'Create Sys Formas Org'), ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([

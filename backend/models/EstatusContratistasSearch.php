@@ -5,12 +5,12 @@ namespace app\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use common\models\SysFormasOrg;
+use common\models\EstatusContratistas;
 
 /**
- * SysFormasOrgSearch represents the model behind the search form about `common\models\SysFormasOrg`.
+ * EstatusContratistasSearch represents the model behind the search form about `common\models\EstatusContratistas`.
  */
-class SysFormasOrgSearch extends SysFormasOrg
+class EstatusContratistasSearch extends EstatusContratistas
 {
     /**
      * @inheritdoc
@@ -19,7 +19,7 @@ class SysFormasOrgSearch extends SysFormasOrg
     {
         return [
             [['id'], 'integer'],
-            [['nombre', 'descripcion', 'sys_fecha'], 'safe'],
+            [['descripcion', 'informacion_adicional', 'sys_fecha'], 'safe'],
             [['sys_status'], 'boolean'],
         ];
     }
@@ -42,7 +42,7 @@ class SysFormasOrgSearch extends SysFormasOrg
      */
     public function search($params)
     {
-        $query = SysFormasOrg::find();
+        $query = EstatusContratistas::find();
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
@@ -62,8 +62,8 @@ class SysFormasOrgSearch extends SysFormasOrg
             'sys_fecha' => $this->sys_fecha,
         ]);
 
-        $query->andFilterWhere(['like', 'nombre', $this->nombre])
-            ->andFilterWhere(['like', 'descripcion', $this->descripcion]);
+        $query->andFilterWhere(['like', 'descripcion', $this->descripcion])
+            ->andFilterWhere(['like', 'informacion_adicional', $this->informacion_adicional]);
 
         return $dataProvider;
     }

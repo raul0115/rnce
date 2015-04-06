@@ -5,14 +5,14 @@ namespace backend\controllers;
 use Yii;
 use common\models\SysGremios;
 use app\models\SysGremiosSearch;
-use yii\web\Controller;
+use common\components\BaseController;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
  * SysGremiosController implements the CRUD actions for SysGremios model.
  */
-class SysGremiosController extends Controller
+class SysGremiosController extends BaseController
 {
     public function behaviors()
     {

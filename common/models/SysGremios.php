@@ -16,7 +16,7 @@ use Yii;
  * @property PersonasJuridicas $personaJuridica
  * @property Avaluos[] $avaluos
  */
-class SysGremios extends \yii\db\ActiveRecord
+class SysGremios extends \common\components\BaseActiveRecord
 {
     /**
      * @inheritdoc
@@ -46,11 +46,11 @@ class SysGremios extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
-            'persona_juridica_id' => 'Persona Juridica ID',
-            'direccion' => 'Direccion',
-            'sys_status' => 'Sys Status',
-            'sys_fecha' => 'Sys Fecha',
+            'id' => Yii::t('app', 'ID'),
+            'persona_juridica_id' => Yii::t('app', 'Persona Juridica ID'),
+            'direccion' => Yii::t('app', 'Direccion'),
+            'sys_status' => Yii::t('app', 'Sys Status'),
+            'sys_fecha' => Yii::t('app', 'Sys Fecha'),
         ];
     }
 

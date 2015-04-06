@@ -5,7 +5,7 @@ namespace common\models;
 use Yii;
 
 /**
- * This is the model class for table "activos.sys_formas_org".
+ * This is the model class for table "activos.sys_clasificaciones_bien".
  *
  * @property integer $id
  * @property string $nombre
@@ -13,17 +13,16 @@ use Yii;
  * @property boolean $sys_status
  * @property string $sys_fecha
  *
- * @property Bienes[] $bienes
- * @property MejorasPropiedades[] $mejorasPropiedades
+ * @property SysTiposBienes[] $sysTiposBienes
  */
-class SysFormasOrg extends \common\components\BaseActiveRecord
+class SysClasificacionesBienes extends \common\components\BaseActiveRecord
 {
     /**
      * @inheritdoc
      */
     public static function tableName()
     {
-        return 'activos.sys_formas_org';
+        return 'activos.sys_clasificaciones_bienes';
     }
 
     /**
@@ -33,11 +32,9 @@ class SysFormasOrg extends \common\components\BaseActiveRecord
     {
         return [
             [['nombre'], 'required'],
-            [['descripcion'], 'string'],
             [['sys_status'], 'boolean'],
             [['sys_fecha'], 'safe'],
-            [['nombre'], 'string', 'max' => 255],
-            [['nombre'], 'unique']
+            [['nombre', 'descripcion'], 'string', 'max' => 255]
         ];
     }
 
@@ -58,16 +55,8 @@ class SysFormasOrg extends \common\components\BaseActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getBienes()
+    public function getSysTiposBienes()
     {
-        return $this->hasMany(Bienes::className(), ['principio_contable' => 'id']);
-    }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getMejorasPropiedades()
-    {
-        return $this->hasMany(MejorasPropiedades::className(), ['principio_contable_id' => 'id']);
+        return $this->hasMany(SysTiposBienes::className(), ['sys_clasificacion_bien_id' => 'id']);
     }
 }

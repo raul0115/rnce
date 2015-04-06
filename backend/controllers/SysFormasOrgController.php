@@ -5,14 +5,14 @@ namespace backend\controllers;
 use Yii;
 use common\models\SysFormasOrg;
 use app\models\SysFormasOrgSearch;
-use yii\web\Controller;
+use common\components\BaseController;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
  * SysFormasOrgController implements the CRUD actions for SysFormasOrg model.
  */
-class SysFormasOrgController extends Controller
+class SysFormasOrgController extends BaseController
 {
     public function behaviors()
     {

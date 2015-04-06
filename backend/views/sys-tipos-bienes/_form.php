@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\helpers\ArrayHelper;
-use common\models\SysClasificacionesBien;
+use common\models\SysClasificacionesBienes;
 /* @var $this yii\web\View */
 /* @var $model common\models\SysTiposBienes */
 /* @var $form yii\widgets\ActiveForm */
@@ -19,7 +19,7 @@ use common\models\SysClasificacionesBien;
 
     <?php // $form->field($model, 'sys_clasificacion_bien_id')->textInput()
 
-        $clasificacionBien = ArrayHelper::map(SysClasificacionesBien::find()->all(), 'id', 'nombre');
+        $clasificacionBien = ArrayHelper::map(SysClasificacionesBienes::find()->all(), 'id', 'nombre');
 
     ?>
     <?= $form->field($model, 'sys_clasificacion_bien_id')->dropDownList(
