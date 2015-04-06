@@ -29,6 +29,48 @@ class ActivosController extends \common\components\BaseController
  
     }
 
+    public function actionOrigen($id)
+    {
+        $model = new Bienes();
+$form = ActiveForm::begin();
+        switch ($id) {
+            case 0:
+                # code...
+         // usage without model
+                echo '<label>Check Issue Date</label>';
+                echo DatePicker::widget([
+                    'model'=>$model,
+                    'attribute'=> 'fecha_asamblea',
+                    'name' => 'check_issue_date', 
+                    'value' => date('d-M-Y', strtotime('+2 days')),
+                    'options' => ['placeholder' => 'Select issue date ...'],
+                    'pluginOptions' => [
+                        'format' => 'dd-M-yyyy',
+                        'todayHighlight' => true
+                    ]
+                ]);
+                break;
+            case 1:
+                # code...
+                break;
+            
+            case 2:
+                # code...
+                break;
+            case 3:
+                # code...
+                break;
+            case 4:
+                # code...
+                break;
+
+            default:
+                # code...
+                break;
+        }
+ 
+    }
+
     public function actionAsociarFactura()
     {
         return $this->render('asociar-factura');

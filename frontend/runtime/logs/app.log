@@ -13705,3 +13705,434 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1428277185.386
     'REQUEST_TIME' => 1428277185
 ]
+2015-04-05 19:42:10 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'unction' (T_STRING)' in C:\Apache24\htdocs\rnce\frontend\views\activos\_form.php:51
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-04-05 19:42:10 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'activos/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => '04f7989283f980130d4ebc0789861d82a99b3abb0487e97f2be5fd6022f158eea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BM00C6Se62TvPswBIEKpmX7POWL3dbQj\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=04f7989283f980130d4ebc0789861d82a99b3abb0487e97f2be5fd6022f158eea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BM00C6Se62TvPswBIEKpmX7POWL3dbQj%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '58384'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=activos%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=activos%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428279130.794
+    'REQUEST_TIME' => 1428279130
+]
+2015-04-05 19:42:41 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'print_r() expects at least 1 parameter, 0 given' in C:\Apache24\htdocs\rnce\frontend\views\activos\_form.php:25
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', 'C:\\Apache24\\htd...', 25, Array)
+#1 C:\Apache24\htdocs\rnce\frontend\views\activos\_form.php(25): print_r()
+#2 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Apache24\\htd...')
+#3 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Apache24\\htd...', Array)
+#4 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Apache24\\htd...', Array, NULL)
+#5 C:\Apache24\htdocs\rnce\frontend\views\activos\index.php(14): yii\base\View->render('_form', Array)
+#6 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Apache24\\htd...')
+#7 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Apache24\\htd...', Array)
+#8 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Apache24\\htd...', Array, Object(frontend\controllers\ActivosController))
+#9 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\ActivosController))
+#10 C:\Apache24\htdocs\rnce\frontend\controllers\ActivosController.php(56): yii\base\Controller->render('index', Array)
+#11 [internal function]: frontend\controllers\ActivosController->actionIndex()
+#12 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#15 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('activos/index', Array)
+#16 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2015-04-05 19:42:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'activos/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => '04f7989283f980130d4ebc0789861d82a99b3abb0487e97f2be5fd6022f158eea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BM00C6Se62TvPswBIEKpmX7POWL3dbQj\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=04f7989283f980130d4ebc0789861d82a99b3abb0487e97f2be5fd6022f158eea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BM00C6Se62TvPswBIEKpmX7POWL3dbQj%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '58387'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=activos%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=activos%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428279161.063
+    'REQUEST_TIME' => 1428279161
+]
+2015-04-05 19:46:46 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42P01]: Undefined table: 7 ERROR:  no existe la relación «activos.sys_clasificaciones_bien»
+LINE 1: SELECT * FROM "activos"."sys_clasificaciones_bien" WHERE "id...
+                      ^' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\Command.php:822
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\Command.php(822): PDOStatement->execute()
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#2 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#4 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\ActiveRelationTrait.php(157): yii\db\ActiveQuery->one()
+#5 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\BaseActiveRecord.php(248): yii\db\ActiveQuery->findFor('sysClasificacio...', Object(common\models\SysTiposBienes))
+#6 C:\Apache24\htdocs\rnce\frontend\views\activos\_form.php(25): yii\db\BaseActiveRecord->__get('sysClasificacio...')
+#7 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(177): yii\base\View->{closure}(Object(common\models\SysTiposBienes), NULL)
+#8 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(363): yii\helpers\BaseArrayHelper::getValue(Object(common\models\SysTiposBienes), Object(Closure))
+#9 C:\Apache24\htdocs\rnce\frontend\views\activos\_form.php(25): yii\helpers\BaseArrayHelper::map(Array, 'id', 'nombre', Object(Closure))
+#10 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Apache24\\htd...')
+#11 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Apache24\\htd...', Array)
+#12 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Apache24\\htd...', Array, NULL)
+#13 C:\Apache24\htdocs\rnce\frontend\views\activos\index.php(14): yii\base\View->render('_form', Array)
+#14 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Apache24\\htd...')
+#15 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Apache24\\htd...', Array)
+#16 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Apache24\\htd...', Array, Object(frontend\controllers\ActivosController))
+#17 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\ActivosController))
+#18 C:\Apache24\htdocs\rnce\frontend\controllers\ActivosController.php(56): yii\base\Controller->render('index', Array)
+#19 [internal function]: frontend\controllers\ActivosController->actionIndex()
+#20 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#23 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('activos/index', Array)
+#24 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42P01]: Undefined table: 7 ERROR:  no existe la relación «activos.sys_clasificaciones_bien»
+LINE 1: SELECT * FROM "activos"."sys_clasificaciones_bien" WHERE "id...
+                      ^
+The SQL being executed was: SELECT * FROM "activos"."sys_clasificaciones_bien" WHERE "id"=1' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\Schema.php:534
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\Command.php(837): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM "...')
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#2 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#4 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\ActiveRelationTrait.php(157): yii\db\ActiveQuery->one()
+#5 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\BaseActiveRecord.php(248): yii\db\ActiveQuery->findFor('sysClasificacio...', Object(common\models\SysTiposBienes))
+#6 C:\Apache24\htdocs\rnce\frontend\views\activos\_form.php(25): yii\db\BaseActiveRecord->__get('sysClasificacio...')
+#7 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(177): yii\base\View->{closure}(Object(common\models\SysTiposBienes), NULL)
+#8 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(363): yii\helpers\BaseArrayHelper::getValue(Object(common\models\SysTiposBienes), Object(Closure))
+#9 C:\Apache24\htdocs\rnce\frontend\views\activos\_form.php(25): yii\helpers\BaseArrayHelper::map(Array, 'id', 'nombre', Object(Closure))
+#10 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Apache24\\htd...')
+#11 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Apache24\\htd...', Array)
+#12 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Apache24\\htd...', Array, NULL)
+#13 C:\Apache24\htdocs\rnce\frontend\views\activos\index.php(14): yii\base\View->render('_form', Array)
+#14 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Apache24\\htd...')
+#15 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Apache24\\htd...', Array)
+#16 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Apache24\\htd...', Array, Object(frontend\controllers\ActivosController))
+#17 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\ActivosController))
+#18 C:\Apache24\htdocs\rnce\frontend\controllers\ActivosController.php(56): yii\base\Controller->render('index', Array)
+#19 [internal function]: frontend\controllers\ActivosController->actionIndex()
+#20 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#23 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('activos/index', Array)
+#24 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+Additional Information:
+Array
+(
+    [0] => 42P01
+    [1] => 7
+    [2] => ERROR:  no existe la relación «activos.sys_clasificaciones_bien»
+LINE 1: SELECT * FROM "activos"."sys_clasificaciones_bien" WHERE "id...
+                      ^
+)
+
+2015-04-05 19:46:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'activos/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => '04f7989283f980130d4ebc0789861d82a99b3abb0487e97f2be5fd6022f158eea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BM00C6Se62TvPswBIEKpmX7POWL3dbQj\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=04f7989283f980130d4ebc0789861d82a99b3abb0487e97f2be5fd6022f158eea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BM00C6Se62TvPswBIEKpmX7POWL3dbQj%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '58407'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=activos%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=activos%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428279406.233
+    'REQUEST_TIME' => 1428279406
+]
+2015-04-05 19:47:02 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42P01]: Undefined table: 7 ERROR:  no existe la relación «activos.sys_clasificaciones_bien»
+LINE 1: SELECT * FROM "activos"."sys_clasificaciones_bien" WHERE "id...
+                      ^' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\Command.php:822
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\Command.php(822): PDOStatement->execute()
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#2 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#4 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\ActiveRelationTrait.php(157): yii\db\ActiveQuery->one()
+#5 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\BaseActiveRecord.php(248): yii\db\ActiveQuery->findFor('sysClasificacio...', Object(common\models\SysTiposBienes))
+#6 C:\Apache24\htdocs\rnce\frontend\views\activos\_form.php(25): yii\db\BaseActiveRecord->__get('sysClasificacio...')
+#7 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(177): yii\base\View->{closure}(Object(common\models\SysTiposBienes), NULL)
+#8 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(363): yii\helpers\BaseArrayHelper::getValue(Object(common\models\SysTiposBienes), Object(Closure))
+#9 C:\Apache24\htdocs\rnce\frontend\views\activos\_form.php(25): yii\helpers\BaseArrayHelper::map(Array, 'id', 'nombre', Object(Closure))
+#10 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Apache24\\htd...')
+#11 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Apache24\\htd...', Array)
+#12 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Apache24\\htd...', Array, NULL)
+#13 C:\Apache24\htdocs\rnce\frontend\views\activos\index.php(14): yii\base\View->render('_form', Array)
+#14 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Apache24\\htd...')
+#15 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Apache24\\htd...', Array)
+#16 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Apache24\\htd...', Array, Object(frontend\controllers\ActivosController))
+#17 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\ActivosController))
+#18 C:\Apache24\htdocs\rnce\frontend\controllers\ActivosController.php(56): yii\base\Controller->render('index', Array)
+#19 [internal function]: frontend\controllers\ActivosController->actionIndex()
+#20 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#23 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('activos/index', Array)
+#24 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42P01]: Undefined table: 7 ERROR:  no existe la relación «activos.sys_clasificaciones_bien»
+LINE 1: SELECT * FROM "activos"."sys_clasificaciones_bien" WHERE "id...
+                      ^
+The SQL being executed was: SELECT * FROM "activos"."sys_clasificaciones_bien" WHERE "id"=1' in C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\Schema.php:534
+Stack trace:
+#0 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\Command.php(837): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM "...')
+#1 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#2 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#4 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\ActiveRelationTrait.php(157): yii\db\ActiveQuery->one()
+#5 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\db\BaseActiveRecord.php(248): yii\db\ActiveQuery->findFor('sysClasificacio...', Object(common\models\SysTiposBienes))
+#6 C:\Apache24\htdocs\rnce\frontend\views\activos\_form.php(25): yii\db\BaseActiveRecord->__get('sysClasificacio...')
+#7 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(177): yii\base\View->{closure}(Object(common\models\SysTiposBienes), NULL)
+#8 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(363): yii\helpers\BaseArrayHelper::getValue(Object(common\models\SysTiposBienes), Object(Closure))
+#9 C:\Apache24\htdocs\rnce\frontend\views\activos\_form.php(25): yii\helpers\BaseArrayHelper::map(Array, 'id', 'nombre', Object(Closure))
+#10 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Apache24\\htd...')
+#11 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Apache24\\htd...', Array)
+#12 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Apache24\\htd...', Array, NULL)
+#13 C:\Apache24\htdocs\rnce\frontend\views\activos\index.php(14): yii\base\View->render('_form', Array)
+#14 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Apache24\\htd...')
+#15 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Apache24\\htd...', Array)
+#16 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Apache24\\htd...', Array, Object(frontend\controllers\ActivosController))
+#17 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\ActivosController))
+#18 C:\Apache24\htdocs\rnce\frontend\controllers\ActivosController.php(56): yii\base\Controller->render('index', Array)
+#19 [internal function]: frontend\controllers\ActivosController->actionIndex()
+#20 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#23 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('activos/index', Array)
+#24 C:\Apache24\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Apache24\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+Additional Information:
+Array
+(
+    [0] => 42P01
+    [1] => 7
+    [2] => ERROR:  no existe la relación «activos.sys_clasificaciones_bien»
+LINE 1: SELECT * FROM "activos"."sys_clasificaciones_bien" WHERE "id...
+                      ^
+)
+
+2015-04-05 19:47:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'activos/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => '04f7989283f980130d4ebc0789861d82a99b3abb0487e97f2be5fd6022f158eea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BM00C6Se62TvPswBIEKpmX7POWL3dbQj\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=04f7989283f980130d4ebc0789861d82a99b3abb0487e97f2be5fd6022f158eea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BM00C6Se62TvPswBIEKpmX7POWL3dbQj%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '58413'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=activos%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=activos%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428279422.058
+    'REQUEST_TIME' => 1428279422
+]
+2015-04-05 20:12:00 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ',', expecting ']'' in C:\Apache24\htdocs\rnce\frontend\controllers\ActivosController.php:45
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-04-05 20:12:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'activos/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    'mysheet' => 'style2'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'PHPSESSID' => '5ntijesv0abs8jsddtk8utb8s3'
+    '_csrf' => '04f7989283f980130d4ebc0789861d82a99b3abb0487e97f2be5fd6022f158eea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BM00C6Se62TvPswBIEKpmX7POWL3dbQj\";}'
+    '_identity' => 'b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; mysheet=style2; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; PHPSESSID=5ntijesv0abs8jsddtk8utb8s3; _csrf=04f7989283f980130d4ebc0789861d82a99b3abb0487e97f2be5fd6022f158eea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BM00C6Se62TvPswBIEKpmX7POWL3dbQj%22%3B%7D; _identity=b6ac1fe3cc7063111fa0179208f7033b6a649bb40fb6ff8019226ba4fc1f7a46a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22oJMi4Mqdd-izwAXkQFJJhWpa_MdJ9dcR%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '58711'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=activos%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=activos%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428280920.474
+    'REQUEST_TIME' => 1428280920
+]
