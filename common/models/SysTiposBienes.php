@@ -53,7 +53,7 @@ class SysTiposBienes extends \common\components\BaseActiveRecord
             'sys_status' => Yii::t('app', 'Sys Status'),
             'sys_fecha' => Yii::t('app', 'Sys Fecha'),
             'descripcion' => Yii::t('app', 'Descripcion'),
-            'sys_clasificacion_bien_id' => Yii::t('app', 'Sys Clasificacion Bien ID'),
+            'sys_clasificacion_bien_id' => Yii::t('app', 'Clasificacion bien'),
         ];
     }
 
