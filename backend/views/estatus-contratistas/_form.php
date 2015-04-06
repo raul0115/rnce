@@ -4,17 +4,17 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model common\models\SysFormasOrg */
+/* @var $model common\models\EstatusContratistas */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
-<div class="sys-formas-org-form">
+<div class="estatus-contratistas-form">
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'nombre')->textInput(['maxlength' => 255]) ?>
-
     <?= $form->field($model, 'descripcion')->textarea(['rows' => 6]) ?>
+
+    <?= $form->field($model, 'informacion_adicional')->textarea(['rows' => 6]) ?>
 
     <?= $form->field($model, 'sys_status')->checkbox() ?>
 

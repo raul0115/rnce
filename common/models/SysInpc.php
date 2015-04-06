@@ -14,7 +14,7 @@ use Yii;
  * @property boolean $sys_status
  * @property string $sys_fecha
  */
-class SysInpc extends \yii\db\ActiveRecord
+class SysInpc extends \common\components\BaseActiveRecord
 {
     /**
      * @inheritdoc
@@ -45,12 +45,12 @@ class SysInpc extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
-            'mes' => 'Mes',
-            'indice' => 'Indice',
-            'anho' => 'Año',
-            'sys_status' => 'Sys Status',
-            'sys_fecha' => 'Sys Fecha',
+            'id' => Yii::t('app', 'ID'),
+            'mes' => Yii::t('app', 'Mes'),
+            'indice' => Yii::t('app', 'Indice'),
+            'anho' => Yii::t('app', 'Año'),
+            'sys_status' => Yii::t('app', 'Sys Status'),
+            'sys_fecha' => Yii::t('app', 'Sys Fecha'),
         ];
     }
 }

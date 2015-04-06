@@ -5,12 +5,12 @@ namespace app\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use common\models\SysFormasOrg;
+use common\models\SysClasificacionesBienes;
 
 /**
- * SysFormasOrgSearch represents the model behind the search form about `common\models\SysFormasOrg`.
+ * SysClasificacionesBienSearch represents the model behind the search form about `common\models\SysClasificacionesBien`.
  */
-class SysFormasOrgSearch extends SysFormasOrg
+class SysClasificacionesBienesSearch extends SysClasificacionesBienes
 {
     /**
      * @inheritdoc
@@ -42,7 +42,7 @@ class SysFormasOrgSearch extends SysFormasOrg
      */
     public function search($params)
     {
-        $query = SysFormasOrg::find();
+        $query = SysClasificacionesBienes::find();
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,

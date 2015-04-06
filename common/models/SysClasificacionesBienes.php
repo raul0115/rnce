@@ -15,14 +15,14 @@ use Yii;
  *
  * @property SysTiposBienes[] $sysTiposBienes
  */
-class SysClasificacionesBien extends \common\components\BaseActiveRecord
+class SysClasificacionesBienes extends \common\components\BaseActiveRecord
 {
     /**
      * @inheritdoc
      */
     public static function tableName()
     {
-        return 'activos.sys_clasificaciones_bien';
+        return 'activos.sys_clasificaciones_bienes';
     }
 
     /**

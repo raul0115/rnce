@@ -6,8 +6,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model common\models\SysInpc */
 
-$this->title = 'Crear INPC';
-$this->params['breadcrumbs'][] = ['label' => 'Sys Inpcs', 'url' => ['index']];
+$this->title = Yii::t('app', 'Create Sys Inpc');
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Sys Inpcs'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="sys-inpc-create">

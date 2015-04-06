@@ -16,7 +16,7 @@ use Yii;
  * @property Bienes[] $bienes
  * @property MejorasPropiedades[] $mejorasPropiedades
  */
-class SysFormasOrg extends \yii\db\ActiveRecord
+class SysFormasOrg extends \common\components\BaseActiveRecord
 {
     /**
      * @inheritdoc
@@ -47,11 +47,11 @@ class SysFormasOrg extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
-            'nombre' => 'Nombre',
-            'descripcion' => 'Descripcion',
-            'sys_status' => 'Sys Status',
-            'sys_fecha' => 'Sys Fecha',
+            'id' => Yii::t('app', 'ID'),
+            'nombre' => Yii::t('app', 'Nombre'),
+            'descripcion' => Yii::t('app', 'Descripcion'),
+            'sys_status' => Yii::t('app', 'Sys Status'),
+            'sys_fecha' => Yii::t('app', 'Sys Fecha'),
         ];
     }
 
