@@ -14636,3 +14636,399 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1428281778.181
     'REQUEST_TIME' => 1428281778
 ]
+2015-04-14 10:24:29 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'kartik\form\ActiveForm' not found' in C:\Apache\htdocs\rnce\frontend\views\activos\_form.php:20
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-04-14 10:24:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'activos/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1925949620.1426916938'
+    '_identity' => 'b3ef3da7066703e5649d79dff6f2a519854983318bf2ea839175fd394f1a5cb5a:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[10,\"VI3H3hf3F51MCLDRGpsFJ_JXrWbfRVhD\",2592000]\";}'
+    'PPA_ID' => 'g2q7eg9cgeab5sa9e96rgu9q46'
+    'webfx-tree-cookie-persistence' => 'wfxt-84 wfxt-58 wfxt-48 wfxt-46 wfxt-4 wfxt-6 wfxt-50 wfxt-52 wfxt-54 wfxt-56 wfxt-100'
+    'PHPSESSID' => 'ce4fpolssv0m4kkm6ud14k4fc6'
+    '_csrf' => '8d793ea2423b9aa887c6b4efeedd69d02233429b6f08f10d5f3ab7b025887e70a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1B4SCYkaAxK5jlbBHaS20Y6ohvF4npZs\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php?r=site%2Fedoresultados'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1925949620.1426916938; _identity=b3ef3da7066703e5649d79dff6f2a519854983318bf2ea839175fd394f1a5cb5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B10%2C%22VI3H3hf3F51MCLDRGpsFJ_JXrWbfRVhD%22%2C2592000%5D%22%3B%7D; PPA_ID=g2q7eg9cgeab5sa9e96rgu9q46; webfx-tree-cookie-persistence=wfxt-84+wfxt-58+wfxt-48+wfxt-46+wfxt-4+wfxt-6+wfxt-50+wfxt-52+wfxt-54+wfxt-56+wfxt-100; PHPSESSID=ce4fpolssv0m4kkm6ud14k4fc6; _csrf=8d793ea2423b9aa887c6b4efeedd69d02233429b6f08f10d5f3ab7b025887e70a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221B4SCYkaAxK5jlbBHaS20Y6ohvF4npZs%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Rational\\common;C:\\php;C:\\php\\ext\\php_curl.dll;C:\\Apache;C:\\Apache\\bin;C:\\Apache\\yii\\framework;C:\\Program Files\\TortoiseGit\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.22'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '50329'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=activos%2Findex'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=activos%2Findex'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429023269.662
+    'REQUEST_TIME' => 1429023269
+]
+2015-04-14 10:28:13 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[08006] [7] FATAL:  no existe la base de datos �rnc�' in C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('pgsql:host=loca...', 'eureka', 'eureka', NULL)
+#1 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Schema.php(383): yii\db\Connection->getSlavePdo()
+#5 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('bienes')
+#6 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\pgsql\Schema.php(319): yii\db\Connection->quoteValue('bienes')
+#7 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\pgsql\Schema.php(160): yii\db\pgsql\Schema->findColumns(Object(yii\db\TableSchema))
+#8 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Schema.php(140): yii\db\pgsql\Schema->loadTableSchema('activos.bienes')
+#9 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\ActiveRecord.php(294): yii\db\Schema->getTableSchema('activos.bienes')
+#10 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\ActiveRecord.php(327): yii\db\ActiveRecord::getTableSchema()
+#11 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\BaseActiveRecord.php(421): yii\db\ActiveRecord->attributes()
+#12 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\BaseActiveRecord.php(263): yii\db\BaseActiveRecord->hasAttribute('contratista_id')
+#13 C:\Apache\htdocs\rnce\frontend\controllers\BienesController.php(64): yii\db\BaseActiveRecord->__set('contratista_id', 1)
+#14 [internal function]: frontend\controllers\BienesController->actionCreate()
+#15 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#16 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#17 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('create', Array)
+#18 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('bienes/create', Array)
+#19 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 C:\Apache\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#21 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[08006] [7] FATAL:  no existe la base de datos �rnc�' in C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Schema.php(383): yii\db\Connection->getSlavePdo()
+#3 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('bienes')
+#4 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\pgsql\Schema.php(319): yii\db\Connection->quoteValue('bienes')
+#5 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\pgsql\Schema.php(160): yii\db\pgsql\Schema->findColumns(Object(yii\db\TableSchema))
+#6 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Schema.php(140): yii\db\pgsql\Schema->loadTableSchema('activos.bienes')
+#7 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\ActiveRecord.php(294): yii\db\Schema->getTableSchema('activos.bienes')
+#8 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\ActiveRecord.php(327): yii\db\ActiveRecord::getTableSchema()
+#9 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\BaseActiveRecord.php(421): yii\db\ActiveRecord->attributes()
+#10 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\BaseActiveRecord.php(263): yii\db\BaseActiveRecord->hasAttribute('contratista_id')
+#11 C:\Apache\htdocs\rnce\frontend\controllers\BienesController.php(64): yii\db\BaseActiveRecord->__set('contratista_id', 1)
+#12 [internal function]: frontend\controllers\BienesController->actionCreate()
+#13 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#14 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#15 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('create', Array)
+#16 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('bienes/create', Array)
+#17 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\Apache\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#19 {main}
+Additional Information:
+
+2015-04-14 10:28:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1925949620.1426916938'
+    '_identity' => 'b3ef3da7066703e5649d79dff6f2a519854983318bf2ea839175fd394f1a5cb5a:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[10,\"VI3H3hf3F51MCLDRGpsFJ_JXrWbfRVhD\",2592000]\";}'
+    'PPA_ID' => 'g2q7eg9cgeab5sa9e96rgu9q46'
+    'webfx-tree-cookie-persistence' => 'wfxt-84 wfxt-58 wfxt-48 wfxt-46 wfxt-4 wfxt-6 wfxt-50 wfxt-52 wfxt-54 wfxt-56 wfxt-100'
+    'PHPSESSID' => 'ce4fpolssv0m4kkm6ud14k4fc6'
+    '_csrf' => '8d793ea2423b9aa887c6b4efeedd69d02233429b6f08f10d5f3ab7b025887e70a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1B4SCYkaAxK5jlbBHaS20Y6ohvF4npZs\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1925949620.1426916938; _identity=b3ef3da7066703e5649d79dff6f2a519854983318bf2ea839175fd394f1a5cb5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B10%2C%22VI3H3hf3F51MCLDRGpsFJ_JXrWbfRVhD%22%2C2592000%5D%22%3B%7D; PPA_ID=g2q7eg9cgeab5sa9e96rgu9q46; webfx-tree-cookie-persistence=wfxt-84+wfxt-58+wfxt-48+wfxt-46+wfxt-4+wfxt-6+wfxt-50+wfxt-52+wfxt-54+wfxt-56+wfxt-100; PHPSESSID=ce4fpolssv0m4kkm6ud14k4fc6; _csrf=8d793ea2423b9aa887c6b4efeedd69d02233429b6f08f10d5f3ab7b025887e70a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221B4SCYkaAxK5jlbBHaS20Y6ohvF4npZs%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Rational\\common;C:\\php;C:\\php\\ext\\php_curl.dll;C:\\Apache;C:\\Apache\\bin;C:\\Apache\\yii\\framework;C:\\Program Files\\TortoiseGit\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.22'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '50523'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429023493.412
+    'REQUEST_TIME' => 1429023493
+]
+2015-04-14 10:37:51 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The table does not exist: activos.bienes' in C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\ActiveRecord.php:298
+Stack trace:
+#0 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\ActiveRecord.php(327): yii\db\ActiveRecord::getTableSchema()
+#1 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\BaseActiveRecord.php(421): yii\db\ActiveRecord->attributes()
+#2 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\BaseActiveRecord.php(263): yii\db\BaseActiveRecord->hasAttribute('contratista_id')
+#3 C:\Apache\htdocs\rnce\frontend\controllers\BienesController.php(64): yii\db\BaseActiveRecord->__set('contratista_id', 1)
+#4 [internal function]: frontend\controllers\BienesController->actionCreate()
+#5 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('create', Array)
+#8 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('bienes/create', Array)
+#9 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Apache\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-04-14 10:37:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1925949620.1426916938'
+    '_identity' => 'b3ef3da7066703e5649d79dff6f2a519854983318bf2ea839175fd394f1a5cb5a:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[10,\"VI3H3hf3F51MCLDRGpsFJ_JXrWbfRVhD\",2592000]\";}'
+    'PPA_ID' => 'g2q7eg9cgeab5sa9e96rgu9q46'
+    'PHPSESSID' => 'ce4fpolssv0m4kkm6ud14k4fc6'
+    '_csrf' => '8d793ea2423b9aa887c6b4efeedd69d02233429b6f08f10d5f3ab7b025887e70a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1B4SCYkaAxK5jlbBHaS20Y6ohvF4npZs\";}'
+    'webfx-tree-cookie-persistence' => 'wfxt-100 wfxt-56 wfxt-54 wfxt-52 wfxt-50 wfxt-6 wfxt-4 wfxt-48 wfxt-58 wfxt-84 wfxt-46'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1925949620.1426916938; _identity=b3ef3da7066703e5649d79dff6f2a519854983318bf2ea839175fd394f1a5cb5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B10%2C%22VI3H3hf3F51MCLDRGpsFJ_JXrWbfRVhD%22%2C2592000%5D%22%3B%7D; PPA_ID=g2q7eg9cgeab5sa9e96rgu9q46; PHPSESSID=ce4fpolssv0m4kkm6ud14k4fc6; _csrf=8d793ea2423b9aa887c6b4efeedd69d02233429b6f08f10d5f3ab7b025887e70a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221B4SCYkaAxK5jlbBHaS20Y6ohvF4npZs%22%3B%7D; webfx-tree-cookie-persistence=wfxt-100+wfxt-56+wfxt-54+wfxt-52+wfxt-50+wfxt-6+wfxt-4+wfxt-48+wfxt-58+wfxt-84+wfxt-46'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Rational\\common;C:\\php;C:\\php\\ext\\php_curl.dll;C:\\Apache;C:\\Apache\\bin;C:\\Apache\\yii\\framework;C:\\Program Files\\TortoiseGit\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.22'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '50717'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429024070.994
+    'REQUEST_TIME' => 1429024070
+]
+2015-04-14 11:41:13 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvdatetime' does not exist: C:\Apache\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es-VE/kvdatetime.php Fallback file does not exist as well: C:\Apache\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker/messages/es/kvdatetime.php
+    in C:\Apache\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:152
+    in C:\Apache\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:183
+    in C:\Apache\htdocs\rnce\vendor\kartik-v\yii2-widget-datetimepicker\DateTimePicker.php:130
+2015-04-14 11:41:11 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'bienes/create'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1925949620.1426916938'
+    '_identity' => 'b3ef3da7066703e5649d79dff6f2a519854983318bf2ea839175fd394f1a5cb5a:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[10,\"VI3H3hf3F51MCLDRGpsFJ_JXrWbfRVhD\",2592000]\";}'
+    'PPA_ID' => 'g2q7eg9cgeab5sa9e96rgu9q46'
+    'PHPSESSID' => 'ce4fpolssv0m4kkm6ud14k4fc6'
+    '_csrf' => '8d793ea2423b9aa887c6b4efeedd69d02233429b6f08f10d5f3ab7b025887e70a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1B4SCYkaAxK5jlbBHaS20Y6ohvF4npZs\";}'
+    'webfx-tree-cookie-persistence' => 'wfxt-84 wfxt-58 wfxt-48 wfxt-4 wfxt-6 wfxt-50 wfxt-52 wfxt-54 wfxt-56 wfxt-100'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php?r=site%2Fbalancegeneral'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1925949620.1426916938; _identity=b3ef3da7066703e5649d79dff6f2a519854983318bf2ea839175fd394f1a5cb5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B10%2C%22VI3H3hf3F51MCLDRGpsFJ_JXrWbfRVhD%22%2C2592000%5D%22%3B%7D; PPA_ID=g2q7eg9cgeab5sa9e96rgu9q46; PHPSESSID=ce4fpolssv0m4kkm6ud14k4fc6; _csrf=8d793ea2423b9aa887c6b4efeedd69d02233429b6f08f10d5f3ab7b025887e70a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221B4SCYkaAxK5jlbBHaS20Y6ohvF4npZs%22%3B%7D; webfx-tree-cookie-persistence=wfxt-84+wfxt-58+wfxt-48+wfxt-4+wfxt-6+wfxt-50+wfxt-52+wfxt-54+wfxt-56+wfxt-100'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Rational\\common;C:\\php;C:\\php\\ext\\php_curl.dll;C:\\Apache;C:\\Apache\\bin;C:\\Apache\\yii\\framework;C:\\Program Files\\TortoiseGit\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.22'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '51301'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=bienes%2Fcreate'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=bienes%2Fcreate'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429027871.93
+    'REQUEST_TIME' => 1429027871
+]
+2015-04-14 11:42:15 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42P01]: Undefined table: 7 ERROR:  no existe la relación «user»
+LINE 1: SELECT 1 FROM "user" WHERE "username"=$1
+                      ^' in C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Command.php:822
+Stack trace:
+#0 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Command.php(822): PDOStatement->execute()
+#1 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Query.php(348): yii\db\Command->queryScalar()
+#3 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\validators\UniqueValidator.php(111): yii\db\Query->exists()
+#4 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\UniqueValidator->validateAttribute(Object(frontend\models\SignupForm), 'username')
+#5 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(frontend\models\SignupForm), Array)
+#6 C:\Apache\htdocs\rnce\frontend\models\SignupForm.php(45): yii\base\Model->validate()
+#7 C:\Apache\htdocs\rnce\frontend\controllers\SiteController.php(133): frontend\models\SignupForm->signup()
+#8 [internal function]: frontend\controllers\SiteController->actionSignup()
+#9 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#11 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('signup', Array)
+#12 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/signup', Array)
+#13 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\Apache\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42P01]: Undefined table: 7 ERROR:  no existe la relación «user»
+LINE 1: SELECT 1 FROM "user" WHERE "username"=$1
+                      ^
+The SQL being executed was: SELECT 1 FROM "user" WHERE "username"='raul0115'' in C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Schema.php:534
+Stack trace:
+#0 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Command.php(837): yii\db\Schema->convertException(Object(PDOException), 'SELECT 1 FROM "...')
+#1 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\db\Query.php(348): yii\db\Command->queryScalar()
+#3 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\validators\UniqueValidator.php(111): yii\db\Query->exists()
+#4 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\UniqueValidator->validateAttribute(Object(frontend\models\SignupForm), 'username')
+#5 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(frontend\models\SignupForm), Array)
+#6 C:\Apache\htdocs\rnce\frontend\models\SignupForm.php(45): yii\base\Model->validate()
+#7 C:\Apache\htdocs\rnce\frontend\controllers\SiteController.php(133): frontend\models\SignupForm->signup()
+#8 [internal function]: frontend\controllers\SiteController->actionSignup()
+#9 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#11 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('signup', Array)
+#12 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/signup', Array)
+#13 C:\Apache\htdocs\rnce\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\Apache\htdocs\rnce\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42P01
+    [1] => 7
+    [2] => ERROR:  no existe la relación «user»
+LINE 1: SELECT 1 FROM "user" WHERE "username"=$1
+                      ^
+)
+
+2015-04-14 11:42:15 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = [
+    '_csrf' => 'SHplTjJNTF8BM1QcQCoZJxlIPzxcPx4lA0gHK2siAwl8PA8fUXp8KA=='
+    'SignupForm' => [
+        'username' => 'raul0115'
+        'email' => 'raul0115@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1925949620.1426916938'
+    '_identity' => 'b3ef3da7066703e5649d79dff6f2a519854983318bf2ea839175fd394f1a5cb5a:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[10,\"VI3H3hf3F51MCLDRGpsFJ_JXrWbfRVhD\",2592000]\";}'
+    'PPA_ID' => 'g2q7eg9cgeab5sa9e96rgu9q46'
+    'webfx-tree-cookie-persistence' => 'wfxt-84 wfxt-58 wfxt-48 wfxt-4 wfxt-6 wfxt-50 wfxt-52 wfxt-54 wfxt-56 wfxt-100'
+    'PHPSESSID' => 'ce4fpolssv0m4kkm6ud14k4fc6'
+    '_csrf' => '95c940d56f83b6873b5dade6946816e7003f19fbd481d7c16c16894b570e773da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"II1RrgUxQ2ZrnrRzK2beYoOV4FjQc70w\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/rnce/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '190'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/rnce/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1925949620.1426916938; _identity=b3ef3da7066703e5649d79dff6f2a519854983318bf2ea839175fd394f1a5cb5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B10%2C%22VI3H3hf3F51MCLDRGpsFJ_JXrWbfRVhD%22%2C2592000%5D%22%3B%7D; PPA_ID=g2q7eg9cgeab5sa9e96rgu9q46; webfx-tree-cookie-persistence=wfxt-84+wfxt-58+wfxt-48+wfxt-4+wfxt-6+wfxt-50+wfxt-52+wfxt-54+wfxt-56+wfxt-100; PHPSESSID=ce4fpolssv0m4kkm6ud14k4fc6; _csrf=95c940d56f83b6873b5dade6946816e7003f19fbd481d7c16c16894b570e773da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22II1RrgUxQ2ZrnrRzK2beYoOV4FjQc70w%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Rational\\common;C:\\php;C:\\php\\ext\\php_curl.dll;C:\\Apache;C:\\Apache\\bin;C:\\Apache\\yii\\framework;C:\\Program Files\\TortoiseGit\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.22'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache/htdocs/rnce/frontend/web/index.php'
+    'REMOTE_PORT' => '51337'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/rnce/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/rnce/frontend/web/index.php'
+    'PHP_SELF' => '/rnce/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429027935.213
+    'REQUEST_TIME' => 1429027935
+]
